@@ -1,0 +1,3097 @@
+{
+  "project": "前缘舱装配序列规划算法",
+  "method": "two-stage object-sequence optimization then process-task inference",
+  "selected_task_algorithm": "KG-IGAv5",
+  "planning_objects": [
+    {
+      "id": "Part_1_10_5536C10311G72_5536C10311G72_1",
+      "label": "Part",
+      "name": "5536C10311G72",
+      "display_name": "3号肋",
+      "part_number": "5536C10311G72",
+      "category": "前缘舱肋",
+      "obb_center": [
+        37.04267088322638,
+        3.6893924888357024,
+        -0.001047979873031452
+      ]
+    },
+    {
+      "id": "Part_1_11_5536C10313G70_5536C10313G70_1",
+      "label": "Part",
+      "name": "5536C10313G70",
+      "display_name": "角片",
+      "part_number": "5536C10313G70",
+      "category": "角材",
+      "obb_center": [
+        36.80151906685323,
+        3.8646803740081883,
+        0.09583733046412586
+      ]
+    },
+    {
+      "id": "Part_1_12_5536C10314G70_5536C10314G70_1",
+      "label": "Part",
+      "name": "5536C10314G70",
+      "display_name": "角片",
+      "part_number": "5536C10314G70",
+      "category": "角材",
+      "obb_center": [
+        36.80151906685323,
+        3.8646803740081883,
+        -0.09583733046412586
+      ]
+    },
+    {
+      "id": "Part_1_13_5536C10403G71_5536C10403G71_1",
+      "label": "Part",
+      "name": "5536C10403G71",
+      "display_name": "4号肋角材",
+      "part_number": "5536C10403G71",
+      "category": "角材",
+      "obb_center": [
+        38.037472274726134,
+        4.689662948651312,
+        -1.4486884610669705e-18
+      ]
+    },
+    {
+      "id": "Part_1_14_5536C10411G72_5536C10411G72_1",
+      "label": "Part",
+      "name": "5536C10411G72",
+      "display_name": "4号肋",
+      "part_number": "5536C10411G72",
+      "category": "前缘舱肋",
+      "obb_center": [
+        37.87385350198003,
+        4.809820239309158,
+        -0.0005015176782865045
+      ]
+    },
+    {
+      "id": "Part_1_15_5536C10413G72_5536C10413G72_1",
+      "label": "Part",
+      "name": "5536C10413G72",
+      "display_name": "4号肋缘条",
+      "part_number": "5536C10413G72",
+      "category": "缘条",
+      "obb_center": [
+        37.876723448797186,
+        4.824646324858069,
+        0.13971832198436976
+      ]
+    },
+    {
+      "id": "Part_1_16_5536C10414G72_5536C10414G72_1",
+      "label": "Part",
+      "name": "5536C10414G72",
+      "display_name": "4号肋缘条",
+      "part_number": "5536C10414G72",
+      "category": "缘条",
+      "obb_center": [
+        37.876723448797186,
+        4.824646324858069,
+        -0.13971832198436993
+      ]
+    },
+    {
+      "id": "Part_1_17_5536C10503G71_5536C10503G70_1",
+      "label": "Part",
+      "name": "5536C10503G71",
+      "display_name": "5号肋角材",
+      "part_number": "5536C10503G71",
+      "category": "角材",
+      "obb_center": [
+        38.640456340408015,
+        5.539789833176592,
+        2.0956582223273985e-20
+      ]
+    },
+    {
+      "id": "Part_1_18_5536C10511G72_5536C10511G72_1",
+      "label": "Part",
+      "name": "5536C10511G72",
+      "display_name": "5号肋",
+      "part_number": "5536C10511G72",
+      "category": "前缘舱肋",
+      "obb_center": [
+        38.505694979262515,
+        5.639077994010041,
+        -5.103261355994281e-06
+      ]
+    },
+    {
+      "id": "Part_1_19_5536C10513G70_5536C10513G70_1",
+      "label": "Part",
+      "name": "5536C10513G70",
+      "display_name": "角片",
+      "part_number": "5536C10513G70",
+      "category": "角材",
+      "obb_center": [
+        38.330977217713276,
+        5.770468181575511,
+        0.05598117327701365
+      ]
+    },
+    {
+      "id": "Part_1_20_5536C10514G70_5536C10514G70_1",
+      "label": "Part",
+      "name": "5536C10514G70",
+      "display_name": "角片",
+      "part_number": "5536C10514G70",
+      "category": "角材",
+      "obb_center": [
+        38.33097721771328,
+        5.770468181575511,
+        -0.05598117327701365
+      ]
+    },
+    {
+      "id": "Part_1_21_5536C10603G71_5536C10603G71_1",
+      "label": "Part",
+      "name": "5536C10603G71",
+      "display_name": "6号肋角材",
+      "part_number": "5536C10603G71",
+      "category": "角材",
+      "obb_center": [
+        39.45811093276605,
+        6.69142469016973,
+        6.784145449501029e-18
+      ]
+    },
+    {
+      "id": "Part_1_22_5536C10611G72_5536C10611G72_1",
+      "label": "Part",
+      "name": "5536C10611G72",
+      "display_name": "6号肋",
+      "part_number": "5536C10611G72",
+      "category": "前缘舱肋",
+      "obb_center": [
+        39.356142050917924,
+        6.767180220871783,
+        -2.877676500730561e-06
+      ]
+    },
+    {
+      "id": "Part_1_23_5536C10613G70_5536C10613G70_1",
+      "label": "Part",
+      "name": "5536C10613G70",
+      "display_name": "角片",
+      "part_number": "5536C10613G70",
+      "category": "角材",
+      "obb_center": [
+        39.2170898151657,
+        6.8747869128172505,
+        0.031110530540934336
+      ]
+    },
+    {
+      "id": "Part_1_24_5536C10614G70_5536C10614G70_1",
+      "label": "Part",
+      "name": "5536C10614G70",
+      "display_name": "角片",
+      "part_number": "5536C10614G70",
+      "category": "角材",
+      "obb_center": [
+        39.21708981516571,
+        6.87478691281725,
+        -0.031110530540934343
+      ]
+    },
+    {
+      "id": "Part_1_2_5536C10101G71_5536C10101G71_1",
+      "label": "Part",
+      "name": "5536C10101G71",
+      "display_name": "1号肋",
+      "part_number": "5536C10101G71",
+      "category": "前缘舱肋",
+      "obb_center": [
+        35.69781467133066,
+        2.0869699780773368,
+        0.04419016959384006
+      ]
+    },
+    {
+      "id": "Part_1_34_5536C14001G71_5536C14001G70_1",
+      "label": "Part",
+      "name": "5536C14001G71",
+      "display_name": "1号连接带板",
+      "part_number": "5536C14001G71",
+      "category": "连接带板",
+      "obb_center": [
+        36.21346811556269,
+        2.2584578392557835,
+        0.24957455916209018
+      ]
+    },
+    {
+      "id": "Part_1_35_5536C14002G71_5536C14002G70_1",
+      "label": "Part",
+      "name": "5536C14002G71",
+      "display_name": "1号连接带板",
+      "part_number": "5536C14002G71",
+      "category": "连接带板",
+      "obb_center": [
+        36.21346811556267,
+        2.258457839255784,
+        -0.2495745591620902
+      ]
+    },
+    {
+      "id": "Part_1_36_5536C14003G71_5536C14003G70_1",
+      "label": "Part",
+      "name": "5536C14003G71",
+      "display_name": "2号连接带板",
+      "part_number": "5536C14003G71",
+      "category": "连接带板",
+      "obb_center": [
+        36.78014553037185,
+        2.9718494493723266,
+        0.22684213554732527
+      ]
+    },
+    {
+      "id": "Part_1_37_5536C14004G71_5536C14004G70_1",
+      "label": "Part",
+      "name": "5536C14004G71",
+      "display_name": "2号连接带板",
+      "part_number": "5536C14004G71",
+      "category": "连接带板",
+      "obb_center": [
+        36.78014553037183,
+        2.9718494493723098,
+        -0.2268421355473254
+      ]
+    },
+    {
+      "id": "Part_1_38_5536C14005G71_5536C14005G71_1",
+      "label": "Part",
+      "name": "5536C14005G71",
+      "display_name": "3号连接带板",
+      "part_number": "5536C14005G71",
+      "category": "连接带板",
+      "obb_center": [
+        37.60404421777758,
+        4.122470852293297,
+        0.1898627276832592
+      ]
+    },
+    {
+      "id": "Part_1_39_5536C14006G71_5536C14006G71_1",
+      "label": "Part",
+      "name": "5536C14006G71",
+      "display_name": "3号连接带板",
+      "part_number": "5536C14006G71",
+      "category": "连接带板",
+      "obb_center": [
+        37.60404421777757,
+        4.122470852293271,
+        -0.1898627276832595
+      ]
+    },
+    {
+      "id": "Part_1_3_5536C10103G71_5536C10103G71_1",
+      "label": "Part",
+      "name": "5536C10103G71",
+      "display_name": "1号肋角材",
+      "part_number": "5536C10103G71",
+      "category": "角材",
+      "obb_center": [
+        36.21102709066827,
+        2.11177086938471,
+        0.012500000000014312
+      ]
+    },
+    {
+      "id": "Part_1_40_5536C14007G71_5536C14007G71_1",
+      "label": "Part",
+      "name": "5536C14007G71",
+      "display_name": "4号连接带板",
+      "part_number": "5536C14007G71",
+      "category": "连接带板",
+      "obb_center": [
+        38.32343988247595,
+        5.135340648918201,
+        0.15669554158037774
+      ]
+    },
+    {
+      "id": "Part_1_41_5536C14008G71_5536C14008G71_1",
+      "label": "Part",
+      "name": "5536C14008G71",
+      "display_name": "4号连接带板",
+      "part_number": "5536C14008G71",
+      "category": "连接带板",
+      "obb_center": [
+        38.32343988247596,
+        5.135340648918212,
+        -0.15669554158037732
+      ]
+    },
+    {
+      "id": "Part_1_42_5536C14009G71_5536C14009G72_1",
+      "label": "Part",
+      "name": "5536C14009G71",
+      "display_name": "5号连接带板",
+      "part_number": "5536C14009G71",
+      "category": "连接带板",
+      "obb_center": [
+        39.03407592624698,
+        6.135930084552902,
+        0.12396955917528717
+      ]
+    },
+    {
+      "id": "Part_1_43_5536C14010G71_5536C14010G72_1",
+      "label": "Part",
+      "name": "5536C14010G71",
+      "display_name": "5号连接带板",
+      "part_number": "5536C14010G71",
+      "category": "连接带板",
+      "obb_center": [
+        39.034075926247176,
+        6.135930084553442,
+        -0.12396955917527176
+      ]
+    },
+    {
+      "id": "Part_1_44_5536C14011G71_5536C14011G71_1",
+      "label": "Part",
+      "name": "5536C14011G71",
+      "display_name": "6号连接带板",
+      "part_number": "5536C14011G71",
+      "category": "连接带板",
+      "obb_center": [
+        39.75065004504283,
+        7.145455289151161,
+        0.09167529930177833
+      ]
+    },
+    {
+      "id": "Part_1_45_5536C14012G71_5536C14012G71_1",
+      "label": "Part",
+      "name": "5536C14012G71",
+      "display_name": "6号连接带板",
+      "part_number": "5536C14012G71",
+      "category": "连接带板",
+      "obb_center": [
+        39.750650045011824,
+        7.145455289134217,
+        -0.09167529930108523
+      ]
+    },
+    {
+      "id": "Part_1_4_5536C10105G71_5536C10105G71_1",
+      "label": "Part",
+      "name": "5536C10105G71",
+      "display_name": "1号肋",
+      "part_number": "5536C10105G71",
+      "category": "前缘舱肋",
+      "obb_center": [
+        35.72837836135239,
+        2.09123890473485,
+        -0.2055398192917982
+      ]
+    },
+    {
+      "id": "Part_1_5_5536C10203G71_5536C10203G71_1",
+      "label": "Part",
+      "name": "5536C10203G71",
+      "display_name": "2号肋角材",
+      "part_number": "5536C10203G71",
+      "category": "角材",
+      "obb_center": [
+        36.38886786362914,
+        2.365513808414772,
+        1.1884229600230156e-18
+      ]
+    },
+    {
+      "id": "Part_1_6_5536C10211G71_5536C10211G71_1",
+      "label": "Part",
+      "name": "5536C10211G71",
+      "display_name": "2号肋",
+      "part_number": "5536C10211G71",
+      "category": "前缘舱肋",
+      "obb_center": [
+        36.154609192338484,
+        2.53698860507861,
+        -0.005332173502766266
+      ]
+    },
+    {
+      "id": "Part_1_7_5536C10213G70_5536C10213G70_1",
+      "label": "Part",
+      "name": "5536C10213G70",
+      "display_name": "2号肋缘条",
+      "part_number": "5536C10213G70",
+      "category": "缘条",
+      "obb_center": [
+        36.15874836495714,
+        2.5491887708046383,
+        0.20344511064424742
+      ]
+    },
+    {
+      "id": "Part_1_8_5536C10214G70_5536C10214G70_1",
+      "label": "Part",
+      "name": "5536C10214G70",
+      "display_name": "2号肋缘条",
+      "part_number": "5536C10214G70",
+      "category": "缘条",
+      "obb_center": [
+        36.15874836495714,
+        2.549188770804638,
+        -0.20344511064424745
+      ]
+    },
+    {
+      "id": "Part_1_9_5536C10303G71_5536C10303G71_1",
+      "label": "Part",
+      "name": "5536C10303G71",
+      "display_name": "3号肋角材",
+      "part_number": "5536C10303G71",
+      "category": "角材",
+      "obb_center": [
+        37.230359547711565,
+        3.552785820852435,
+        9.882880556156413e-18
+      ]
+    },
+    {
+      "id": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+      "label": "SubAssembly",
+      "name": "5536C11001G41",
+      "display_name": "左侧下封面板",
+      "part_number": "5536C11001G41",
+      "category": "壁板",
+      "obb_center": [
+        35.59225872617002,
+        1.9910547659829765,
+        0.20681659319037815
+      ]
+    },
+    {
+      "id": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+      "label": "SubAssembly",
+      "name": "5536C11002G41",
+      "display_name": "右侧下封面板",
+      "part_number": "5536C11002G41",
+      "category": "壁板",
+      "obb_center": [
+        35.59226982384519,
+        1.9910525813798772,
+        -0.20681685753789217
+      ]
+    },
+    {
+      "id": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+      "label": "SubAssembly",
+      "name": "5536C11003G41",
+      "display_name": "左侧1号夹芯板",
+      "part_number": "5536C11003G41",
+      "category": "壁板",
+      "obb_center": [
+        35.895179532782706,
+        2.335710318872164,
+        0.2096074123827249
+      ]
+    },
+    {
+      "id": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+      "label": "SubAssembly",
+      "name": "5536C11004G41",
+      "display_name": "右侧1号夹芯板",
+      "part_number": "5536C11004G41",
+      "category": "壁板",
+      "obb_center": [
+        35.89517953278269,
+        2.3357103188721644,
+        -0.2096074123827249
+      ]
+    },
+    {
+      "id": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+      "label": "SubAssembly",
+      "name": "5536C11005G41",
+      "display_name": "左侧2号夹芯板",
+      "part_number": "5536C11005G41",
+      "category": "壁板",
+      "obb_center": [
+        36.95637433205504,
+        3.6348002887227326,
+        0.18200142319741747
+      ]
+    },
+    {
+      "id": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+      "label": "SubAssembly",
+      "name": "5536C11006G41",
+      "display_name": "右侧2号夹芯板",
+      "part_number": "5536C11006G41",
+      "category": "壁板",
+      "obb_center": [
+        36.956374332055034,
+        3.6348002887227215,
+        -0.18200142319741777
+      ]
+    },
+    {
+      "id": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+      "label": "SubAssembly",
+      "name": "5536C11007G41",
+      "display_name": "左侧3号夹芯板",
+      "part_number": "5536C11007G41",
+      "category": "壁板",
+      "obb_center": [
+        38.80835218544167,
+        6.0852801401093055,
+        0.11279665330943676
+      ]
+    },
+    {
+      "id": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+      "label": "SubAssembly",
+      "name": "5536C11008G41",
+      "display_name": "右侧3号夹芯板",
+      "part_number": "5536C11008G41",
+      "category": "壁板",
+      "obb_center": [
+        38.808352185356824,
+        6.085280139986728,
+        -0.11279665331063263
+      ]
+    },
+    {
+      "id": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+      "label": "SubAssembly",
+      "name": "5536C12000G42",
+      "display_name": "辅助梁组件",
+      "part_number": "5536C12000G42",
+      "category": "辅助梁",
+      "obb_center": [
+        37.32583257172132,
+        4.512482847502837,
+        2.68165322889739e-05
+      ]
+    }
+  ],
+  "quality": {
+    "object_count": 44,
+    "hard_precedence_count": 344,
+    "connect_count": 71,
+    "mayInterfere_count": 132,
+    "objects_with_obb_center": 44,
+    "objects_without_process": [],
+    "notes": []
+  },
+  "hard_constraints": {
+    "count": 344,
+    "edges": [
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "after": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "after": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "after": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "after": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "after": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "after": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "source": "user_reference_process_order"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "source": "process_text_object_precedence"
+      },
+      {
+        "before": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "after": "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "source": "process_text_object_precedence"
+      }
+    ],
+    "sources": [
+      "process_text_object_precedence",
+      "user_reference_process_order"
+    ]
+  },
+  "objective_sources": {
+    "direction_switches": "mayInterfere.directions; missing pairs are skipped",
+    "tool_switches": "Object -> requireProcess -> Process -> requiresResource -> Resource",
+    "kg_continuity_penalty": "w_spatial * spatial_jump_penalty",
+    "spatial_jump_penalty": "3D Euclidean distance between adjacent Object OBB centers, normalized by median pairwise OBB-center distance; large jumps and reverse movement on the dominant OBB-center flow axis use nonlinear penalty",
+    "excluded": [
+      "manual reference sequence as hard coding",
+      "part_number/name based regional continuity"
+    ]
+  },
+  "candidate_pool_report": {
+    "object_count": 44,
+    "hard_precedence_count": 344,
+    "candidate_pool_size": 5000,
+    "generation_attempts": 5000,
+    "duplicate_removed": 0,
+    "invalid_removed": 0,
+    "geometry_feasibility_enabled": true,
+    "geometry_invalid_removed": 0,
+    "best_candidate_fitness": 341.07257129311574,
+    "worst_candidate_fitness": 971.9198714615418,
+    "reference_distance": 2.178121359836608,
+    "spatial_jump_threshold": 3.811712379714064,
+    "flow_axis": 1,
+    "objects_with_obb_center": 44,
+    "notes": []
+  },
+  "algorithm_summary": [
+    {
+      "算法": "GraphPlan",
+      "种群规模": 1,
+      "最大迭代次数": 44,
+      "平均收敛迭代次数": 42,
+      "装配方向维持次数": 4,
+      "装配工具维持次数": 40,
+      "装配工艺连贯性维持次数": 0,
+      "连接断裂惩罚": 0.0,
+      "空间跨度惩罚": 99.173256,
+      "空间流线折返惩罚": 2.848673,
+      "KG连贯性惩罚": 99.173256,
+      "最优目标函数值": 116.17325574633115,
+      "平均目标函数值": 116.173256,
+      "最优解命中率(%)": 0.0,
+      "平均运行时间/s": 0.033306
+    },
+    {
+      "算法": "PSO",
+      "种群规模": 40,
+      "最大迭代次数": 80,
+      "平均收敛迭代次数": 77.05,
+      "装配方向维持次数": 8,
+      "装配工具维持次数": 34,
+      "装配工艺连贯性维持次数": 0,
+      "连接断裂惩罚": 0.0,
+      "空间跨度惩罚": 66.161903,
+      "空间流线折返惩罚": 1.523941,
+      "KG连贯性惩罚": 66.161903,
+      "最优目标函数值": 89.16190265901643,
+      "平均目标函数值": 127.061677,
+      "最优解命中率(%)": 0.0,
+      "平均运行时间/s": 3.367543
+    },
+    {
+      "算法": "GA",
+      "种群规模": 40,
+      "最大迭代次数": 80,
+      "平均收敛迭代次数": 76.75,
+      "装配方向维持次数": 9,
+      "装配工具维持次数": 30,
+      "装配工艺连贯性维持次数": 0,
+      "连接断裂惩罚": 0.0,
+      "空间跨度惩罚": 68.229776,
+      "空间流线折返惩罚": 1.742078,
+      "KG连贯性惩罚": 68.229776,
+      "最优目标函数值": 99.22977579895789,
+      "平均目标函数值": 131.343601,
+      "最优解命中率(%)": 0.0,
+      "平均运行时间/s": 6.368896
+    },
+    {
+      "算法": "KG-IGA",
+      "种群规模": 40,
+      "最大迭代次数": 80,
+      "平均收敛迭代次数": 68.6,
+      "装配方向维持次数": 7,
+      "装配工具维持次数": 32,
+      "装配工艺连贯性维持次数": 0,
+      "连接断裂惩罚": 0.0,
+      "空间跨度惩罚": 13.550926,
+      "空间流线折返惩罚": 0.068946,
+      "KG连贯性惩罚": 13.550926,
+      "最优目标函数值": 39.050925900686806,
+      "平均目标函数值": 75.435643,
+      "最优解命中率(%)": 5.0,
+      "平均运行时间/s": 8.253512
+    },
+    {
+      "算法": "KG-IGA-CM",
+      "种群规模": 40,
+      "最大迭代次数": 80,
+      "平均收敛迭代次数": 69.35,
+      "装配方向维持次数": 7,
+      "装配工具维持次数": 32,
+      "装配工艺连贯性维持次数": 0,
+      "连接断裂惩罚": 0.0,
+      "空间跨度惩罚": 13.756774,
+      "空间流线折返惩罚": 0.068946,
+      "KG连贯性惩罚": 13.756774,
+      "最优目标函数值": 39.25677389672482,
+      "平均目标函数值": 75.37795,
+      "最优解命中率(%)": 0.0,
+      "平均运行时间/s": 9.13975
+    },
+    {
+      "算法": "KG-IGA-CM-NR",
+      "种群规模": 40,
+      "最大迭代次数": 80,
+      "平均收敛迭代次数": 75.65,
+      "装配方向维持次数": 6,
+      "装配工具维持次数": 32,
+      "装配工艺连贯性维持次数": 0,
+      "连接断裂惩罚": 0.0,
+      "空间跨度惩罚": 38.518334,
+      "空间流线折返惩罚": 0.862727,
+      "KG连贯性惩罚": 38.518334,
+      "最优目标函数值": 64.01833384513554,
+      "平均目标函数值": 114.113059,
+      "最优解命中率(%)": 0.0,
+      "平均运行时间/s": 8.305834
+    },
+    {
+      "算法": "KG-IGAv2",
+      "种群规模": 40,
+      "最大迭代次数": 80,
+      "平均收敛迭代次数": 76.85,
+      "装配方向维持次数": 6,
+      "装配工具维持次数": 32,
+      "装配工艺连贯性维持次数": 0,
+      "连接断裂惩罚": 0.0,
+      "空间跨度惩罚": 47.496444,
+      "空间流线折返惩罚": 1.123967,
+      "KG连贯性惩罚": 47.496444,
+      "最优目标函数值": 72.99644415199478,
+      "平均目标函数值": 116.738904,
+      "最优解命中率(%)": 0.0,
+      "平均运行时间/s": 6.773778
+    },
+    {
+      "算法": "KG-IGAv3",
+      "种群规模": 40,
+      "最大迭代次数": 80,
+      "平均收敛迭代次数": 78.6,
+      "装配方向维持次数": 4,
+      "装配工具维持次数": 30,
+      "装配工艺连贯性维持次数": 0,
+      "连接断裂惩罚": 0.0,
+      "空间跨度惩罚": 46.107342,
+      "空间流线折返惩罚": 1.084453,
+      "KG连贯性惩罚": 46.107342,
+      "最优目标函数值": 83.10734203671251,
+      "平均目标函数值": 106.16894,
+      "最优解命中率(%)": 0.0,
+      "平均运行时间/s": 7.91259
+    },
+    {
+      "算法": "KG-IGAv5",
+      "种群规模": 40,
+      "最大迭代次数": 80,
+      "平均收敛迭代次数": 71.75,
+      "装配方向维持次数": 7,
+      "装配工具维持次数": 32,
+      "装配工艺连贯性维持次数": 0,
+      "连接断裂惩罚": 0.0,
+      "空间跨度惩罚": 14.491161,
+      "空间流线折返惩罚": 0.068946,
+      "KG连贯性惩罚": 14.491161,
+      "最优目标函数值": 39.99116076121859,
+      "平均目标函数值": 86.723415,
+      "最优解命中率(%)": 0.0,
+      "平均运行时间/s": 8.614715
+    }
+  ],
+  "best_sequences": {
+    "GraphPlan": {
+      "sequence": [
+        "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "SubAssembly_1_25_5536C11001G41_5536C11001G41_1"
+      ],
+      "score": {
+        "fitness": 116.17325574633115,
+        "direction_switches": 6,
+        "tool_switches": 4,
+        "continuity_breaks": 99.17325574633115,
+        "kg_continuity_penalty": 99.17325574633115,
+        "connect_break_penalty": 0.0,
+        "spatial_jump_penalty": 99.17325574633115,
+        "spatial_flow_penalty": 2.8486730627059993,
+        "reference_distance": 2.178121359836608,
+        "spatial_jump_threshold": 3.811712379714064,
+        "flow_axis": 1,
+        "spatial_pairs_scored": 43,
+        "spatial_pairs_missing": 0,
+        "direction_maintains": 4,
+        "tool_maintains": 40,
+        "continuity_maintains": 0
+      }
+    },
+    "PSO": {
+      "sequence": [
+        "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "SubAssembly_1_29_5536C11005G41_5536C11005G41"
+      ],
+      "score": {
+        "fitness": 89.16190265901643,
+        "direction_switches": 2,
+        "tool_switches": 10,
+        "continuity_breaks": 66.16190265901643,
+        "kg_continuity_penalty": 66.16190265901643,
+        "connect_break_penalty": 0.0,
+        "spatial_jump_penalty": 66.16190265901643,
+        "spatial_flow_penalty": 1.5239405215606538,
+        "reference_distance": 2.178121359836608,
+        "spatial_jump_threshold": 3.811712379714064,
+        "flow_axis": 1,
+        "spatial_pairs_scored": 43,
+        "spatial_pairs_missing": 0,
+        "direction_maintains": 8,
+        "tool_maintains": 34,
+        "continuity_maintains": 0
+      }
+    },
+    "GA": {
+      "sequence": [
+        "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "SubAssembly_1_29_5536C11005G41_5536C11005G41"
+      ],
+      "score": {
+        "fitness": 99.22977579895789,
+        "direction_switches": 2,
+        "tool_switches": 14,
+        "continuity_breaks": 68.22977579895789,
+        "kg_continuity_penalty": 68.22977579895789,
+        "connect_break_penalty": 0.0,
+        "spatial_jump_penalty": 68.22977579895789,
+        "spatial_flow_penalty": 1.7420779813201774,
+        "reference_distance": 2.178121359836608,
+        "spatial_jump_threshold": 3.811712379714064,
+        "flow_axis": 1,
+        "spatial_pairs_scored": 43,
+        "spatial_pairs_missing": 0,
+        "direction_maintains": 9,
+        "tool_maintains": 30,
+        "continuity_maintains": 0
+      }
+    },
+    "KG-IGA": {
+      "sequence": [
+        "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "SubAssembly_1_25_5536C11001G41_5536C11001G41_1"
+      ],
+      "score": {
+        "fitness": 39.050925900686806,
+        "direction_switches": 1,
+        "tool_switches": 12,
+        "continuity_breaks": 13.550925900686806,
+        "kg_continuity_penalty": 13.550925900686806,
+        "connect_break_penalty": 0.0,
+        "spatial_jump_penalty": 13.550925900686806,
+        "spatial_flow_penalty": 0.06894599889137717,
+        "reference_distance": 2.178121359836608,
+        "spatial_jump_threshold": 3.811712379714064,
+        "flow_axis": 1,
+        "spatial_pairs_scored": 43,
+        "spatial_pairs_missing": 0,
+        "direction_maintains": 7,
+        "tool_maintains": 32,
+        "continuity_maintains": 0
+      }
+    },
+    "KG-IGA-CM": {
+      "sequence": [
+        "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "SubAssembly_1_28_5536C11004G41_5536C11004G41"
+      ],
+      "score": {
+        "fitness": 39.25677389672482,
+        "direction_switches": 1,
+        "tool_switches": 12,
+        "continuity_breaks": 13.75677389672482,
+        "kg_continuity_penalty": 13.75677389672482,
+        "connect_break_penalty": 0.0,
+        "spatial_jump_penalty": 13.75677389672482,
+        "spatial_flow_penalty": 0.06894599889137717,
+        "reference_distance": 2.178121359836608,
+        "spatial_jump_threshold": 3.811712379714064,
+        "flow_axis": 1,
+        "spatial_pairs_scored": 43,
+        "spatial_pairs_missing": 0,
+        "direction_maintains": 7,
+        "tool_maintains": 32,
+        "continuity_maintains": 0
+      }
+    },
+    "KG-IGA-CM-NR": {
+      "sequence": [
+        "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "SubAssembly_1_26_5536C11002G41_5536C11002G41_1"
+      ],
+      "score": {
+        "fitness": 64.01833384513554,
+        "direction_switches": 1,
+        "tool_switches": 12,
+        "continuity_breaks": 38.518333845135544,
+        "kg_continuity_penalty": 38.518333845135544,
+        "connect_break_penalty": 0.0,
+        "spatial_jump_penalty": 38.518333845135544,
+        "spatial_flow_penalty": 0.8627272234621015,
+        "reference_distance": 2.178121359836608,
+        "spatial_jump_threshold": 3.811712379714064,
+        "flow_axis": 1,
+        "spatial_pairs_scored": 43,
+        "spatial_pairs_missing": 0,
+        "direction_maintains": 6,
+        "tool_maintains": 32,
+        "continuity_maintains": 0
+      }
+    },
+    "KG-IGAv2": {
+      "sequence": [
+        "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "SubAssembly_1_27_5536C11003G41_5536C11003G41"
+      ],
+      "score": {
+        "fitness": 72.99644415199478,
+        "direction_switches": 1,
+        "tool_switches": 12,
+        "continuity_breaks": 47.49644415199478,
+        "kg_continuity_penalty": 47.49644415199478,
+        "connect_break_penalty": 0.0,
+        "spatial_jump_penalty": 47.49644415199478,
+        "spatial_flow_penalty": 1.123966946612704,
+        "reference_distance": 2.178121359836608,
+        "spatial_jump_threshold": 3.811712379714064,
+        "flow_axis": 1,
+        "spatial_pairs_scored": 43,
+        "spatial_pairs_missing": 0,
+        "direction_maintains": 6,
+        "tool_maintains": 32,
+        "continuity_maintains": 0
+      }
+    },
+    "KG-IGAv3": {
+      "sequence": [
+        "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "SubAssembly_1_29_5536C11005G41_5536C11005G41",
+        "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "SubAssembly_1_26_5536C11002G41_5536C11002G41_1"
+      ],
+      "score": {
+        "fitness": 83.10734203671251,
+        "direction_switches": 6,
+        "tool_switches": 14,
+        "continuity_breaks": 46.1073420367125,
+        "kg_continuity_penalty": 46.1073420367125,
+        "connect_break_penalty": 0.0,
+        "spatial_jump_penalty": 46.1073420367125,
+        "spatial_flow_penalty": 1.0844533695312137,
+        "reference_distance": 2.178121359836608,
+        "spatial_jump_threshold": 3.811712379714064,
+        "flow_axis": 1,
+        "spatial_pairs_scored": 43,
+        "spatial_pairs_missing": 0,
+        "direction_maintains": 4,
+        "tool_maintains": 30,
+        "continuity_maintains": 0
+      }
+    },
+    "KG-IGAv5": {
+      "sequence": [
+        "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+        "Part_1_2_5536C10101G71_5536C10101G71_1",
+        "Part_1_4_5536C10105G71_5536C10105G71_1",
+        "Part_1_6_5536C10211G71_5536C10211G71_1",
+        "Part_1_5_5536C10203G71_5536C10203G71_1",
+        "Part_1_34_5536C14001G71_5536C14001G70_1",
+        "Part_1_3_5536C10103G71_5536C10103G71_1",
+        "Part_1_35_5536C14002G71_5536C14002G70_1",
+        "Part_1_7_5536C10213G70_5536C10213G70_1",
+        "Part_1_8_5536C10214G70_5536C10214G70_1",
+        "Part_1_36_5536C14003G71_5536C14003G70_1",
+        "Part_1_37_5536C14004G71_5536C14004G70_1",
+        "Part_1_10_5536C10311G72_5536C10311G72_1",
+        "Part_1_9_5536C10303G71_5536C10303G71_1",
+        "Part_1_12_5536C10314G70_5536C10314G70_1",
+        "Part_1_11_5536C10313G70_5536C10313G70_1",
+        "Part_1_38_5536C14005G71_5536C14005G71_1",
+        "Part_1_39_5536C14006G71_5536C14006G71_1",
+        "Part_1_14_5536C10411G72_5536C10411G72_1",
+        "Part_1_13_5536C10403G71_5536C10403G71_1",
+        "Part_1_15_5536C10413G72_5536C10413G72_1",
+        "Part_1_16_5536C10414G72_5536C10414G72_1",
+        "Part_1_40_5536C14007G71_5536C14007G71_1",
+        "Part_1_41_5536C14008G71_5536C14008G71_1",
+        "Part_1_18_5536C10511G72_5536C10511G72_1",
+        "Part_1_17_5536C10503G71_5536C10503G70_1",
+        "Part_1_20_5536C10514G70_5536C10514G70_1",
+        "Part_1_19_5536C10513G70_5536C10513G70_1",
+        "Part_1_42_5536C14009G71_5536C14009G72_1",
+        "Part_1_43_5536C14010G71_5536C14010G72_1",
+        "Part_1_22_5536C10611G72_5536C10611G72_1",
+        "Part_1_21_5536C10603G71_5536C10603G71_1",
+        "Part_1_23_5536C10613G70_5536C10613G70_1",
+        "Part_1_24_5536C10614G70_5536C10614G70_1",
+        "Part_1_45_5536C14012G71_5536C14012G71_1",
+        "Part_1_44_5536C14011G71_5536C14011G71_1",
+        "SubAssembly_1_32_5536C11008G41_5536C11008G41",
+        "SubAssembly_1_31_5536C11007G41_5536C11007G41",
+        "SubAssembly_1_30_5536C11006G41_5536C11006G41",
+        "SubAssembly_1_25_5536C11001G41_5536C11001G41_1",
+        "SubAssembly_1_26_5536C11002G41_5536C11002G41_1",
+        "SubAssembly_1_27_5536C11003G41_5536C11003G41",
+        "SubAssembly_1_28_5536C11004G41_5536C11004G41",
+        "SubAssembly_1_29_5536C11005G41_5536C11005G41"
+      ],
+      "score": {
+        "fitness": 39.99116076121859,
+        "direction_switches": 1,
+        "tool_switches": 12,
+        "continuity_breaks": 14.491160761218588,
+        "kg_continuity_penalty": 14.491160761218588,
+        "connect_break_penalty": 0.0,
+        "spatial_jump_penalty": 14.491160761218588,
+        "spatial_flow_penalty": 0.06894599889137717,
+        "reference_distance": 2.178121359836608,
+        "spatial_jump_threshold": 3.811712379714064,
+        "flow_axis": 1,
+        "spatial_pairs_scored": 43,
+        "spatial_pairs_missing": 0,
+        "direction_maintains": 7,
+        "tool_maintains": 32,
+        "continuity_maintains": 0
+      }
+    }
+  },
+  "inferred_task_count": 208,
+  "output_dir": "F:\\proV1.8\\front_cabin_planning_results"
+}

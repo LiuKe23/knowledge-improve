@@ -1,0 +1,15 @@
+{
+  "object_count": 44,
+  "hard_precedence_count": 344,
+  "candidate_pool_size": 5000,
+  "generation_attempts": 5000,
+  "duplicate_removed": 0,
+  "invalid_removed": 0,
+  "best_candidate_fitness": 379.07257129311574,
+  "worst_candidate_fitness": 1013.9198714615418,
+  "reference_distance": 2.178121359836608,
+  "spatial_jump_threshold": 3.811712379714064,
+  "flow_axis": 1,
+  "objects_with_obb_center": 44,
+  "notes": []
+}

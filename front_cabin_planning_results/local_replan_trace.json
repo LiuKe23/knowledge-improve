@@ -1,0 +1,13 @@
+[
+  {
+    "attempt": 1,
+    "rule_version": "strict_sequence_precedence",
+    "current_sequence_index": 21,
+    "failed_resource_id": "RES_钻具",
+    "available_task_count": 23,
+    "blocked_resource_count": 87,
+    "blocked_precedence_count": 77,
+    "explanation_quality": "clear",
+    "improvement_reason": "初始规则：冻结扰动点前缀，资源阻断后严格沿原序列传播前驱阻断。"
+  }
+]

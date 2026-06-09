@@ -1,0 +1,10 @@
+﻿algorithm,run,initial_best_fitness,initial_avg_fitness,total_crossover_count,guided_crossover_count,total_mutation_count,guided_mutation_count,bad_position_detect_count,connect_query_count,obb_query_count,mayinterfere_query_count,resource_query_count,repair_count,repair_changed_count,guided_accept_count,guided_reject_count,prescreen_count,prescreen_reject_count,direct_guide_attempt_count,direct_guide_accept_count,direct_guide_illegal_reject_count,connect_candidate_count,obb_fallback_count,constraint_mutation_attempt_count,constraint_mutation_accept_count,constraint_mutation_shift_count,constraint_mutation_reject_count,no_repair_crossover_retry_count,no_repair_illegal_child_count,no_repair_valid_child_count,no_repair_local_reject_count,geometry_valid_initial_count,geometry_invalid_initial_count,geometry_valid_child_count,geometry_invalid_child_count,geometry_valid_neighbor_count,geometry_invalid_neighbor_count
+KG-IGA,1,410.307262,638.26714,0,0,0,517,0,161,325,0,0,805,454,76,369,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+RL,1,410.307262,638.26714,0,0,0,475,0,42,95,0,0,138,83,75,83,0,0,0,0,0,0,0,94,94,50,0,0,0,0,0,0,0,0,0,0,0
+DRL,1,410.307262,638.26714,0,0,0,470,0,47,90,0,0,112,80,107,25,0,0,0,0,0,0,0,74,74,37,0,0,0,0,0,0,0,0,0,0,0
+KG-IGA,2,587.633831,705.769654,0,0,0,550,0,181,361,0,0,826,475,116,350,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+RL,2,587.633831,705.769654,0,0,0,492,0,68,112,0,0,154,99,65,109,0,0,0,0,0,0,0,95,95,47,0,0,0,0,0,0,0,0,0,0,0
+DRL,2,587.633831,705.769654,0,0,0,470,0,54,90,0,0,120,79,113,27,0,0,0,0,0,0,0,80,80,44,0,0,0,0,0,0,0,0,0,0,0
+KG-IGA,3,554.996273,706.98874,0,0,0,521,0,175,336,0,0,790,478,72,358,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+RL,3,554.996273,706.98874,0,0,0,503,0,58,123,0,0,152,98,71,101,0,0,0,0,0,0,0,91,91,49,0,0,0,0,0,0,0,0,0,0,0
+DRL,3,554.996273,706.98874,0,0,0,475,0,50,95,0,0,122,89,100,42,0,0,0,0,0,0,0,66,66,33,0,0,0,0,0,0,0,0,0,0,0

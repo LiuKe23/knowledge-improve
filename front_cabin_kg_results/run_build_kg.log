@@ -1,0 +1,32 @@
+2026-05-15 11:10:22,167 [INFO] run_build_kg - Starting step: extract_catproduct_kg
+2026-05-15 11:14:40,819 [INFO] run_build_kg - Finished step: extract_catproduct_kg in 258.653s
+2026-05-15 11:14:40,819 [INFO] run_build_kg - Starting step: extract_pdf_kg
+2026-05-15 11:14:48,031 [INFO] run_build_kg - Finished step: extract_pdf_kg in 7.212s
+2026-05-15 11:14:48,031 [INFO] run_build_kg - Starting step: build_process_kg
+2026-05-15 11:15:06,464 [INFO] run_build_kg - Finished step: build_process_kg in 18.433s
+2026-05-15 11:15:06,465 [INFO] run_build_kg - Starting step: inspect_front_cabin_kg
+2026-05-15 11:15:07,021 [INFO] run_build_kg - Finished step: inspect_front_cabin_kg in 0.556s
+2026-05-15 13:02:46,004 [INFO] run_build_kg - Starting step: extract_catproduct_kg
+2026-05-15 13:04:31,359 [INFO] run_build_kg - Finished step: extract_catproduct_kg in 105.355s
+2026-05-15 13:04:31,359 [INFO] run_build_kg - Starting step: extract_pdf_kg
+2026-05-15 13:04:52,549 [INFO] run_build_kg - Finished step: extract_pdf_kg in 21.189s
+2026-05-15 13:04:52,549 [INFO] run_build_kg - Starting step: build_process_kg
+2026-05-15 13:05:18,032 [INFO] run_build_kg - Finished step: build_process_kg in 25.483s
+2026-05-15 13:05:18,032 [INFO] run_build_kg - Starting step: inspect_front_cabin_kg
+2026-05-15 13:05:19,901 [INFO] run_build_kg - Finished step: inspect_front_cabin_kg in 1.869s
+2026-05-15 15:35:47,228 [INFO] run_build_kg - Starting step: extract_catproduct_kg
+2026-05-15 15:38:01,641 [INFO] run_build_kg - Finished step: extract_catproduct_kg in 134.413s
+2026-05-15 15:38:01,641 [INFO] run_build_kg - Starting step: extract_pdf_kg
+2026-05-15 15:38:26,354 [INFO] run_build_kg - Finished step: extract_pdf_kg in 24.713s
+2026-05-15 15:38:26,354 [INFO] run_build_kg - Starting step: build_process_kg
+2026-05-15 15:39:07,370 [INFO] run_build_kg - Finished step: build_process_kg in 41.016s
+2026-05-15 15:39:07,370 [INFO] run_build_kg - Starting step: inspect_front_cabin_kg
+2026-05-15 15:39:09,861 [INFO] run_build_kg - Finished step: inspect_front_cabin_kg in 2.491s
+2026-05-15 16:07:08,893 [INFO] run_build_kg - Starting step: extract_catproduct_kg
+2026-05-15 16:11:36,022 [INFO] run_build_kg - Finished step: extract_catproduct_kg in 267.130s
+2026-05-15 16:11:36,022 [INFO] run_build_kg - Starting step: extract_pdf_kg
+2026-05-15 16:12:02,122 [INFO] run_build_kg - Finished step: extract_pdf_kg in 26.100s
+2026-05-15 16:12:02,122 [INFO] run_build_kg - Starting step: build_process_kg
+2026-05-15 16:12:49,717 [INFO] run_build_kg - Finished step: build_process_kg in 47.595s
+2026-05-15 16:12:49,717 [INFO] run_build_kg - Starting step: inspect_front_cabin_kg
+2026-05-15 16:12:52,822 [INFO] run_build_kg - Finished step: inspect_front_cabin_kg in 3.105s

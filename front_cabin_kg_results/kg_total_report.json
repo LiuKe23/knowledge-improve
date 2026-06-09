@@ -1,0 +1,351 @@
+{
+  "clear_graph": true,
+  "steps": [
+    {
+      "module": "extract_catproduct_kg",
+      "elapsed_seconds": 267.13,
+      "status": "ok"
+    },
+    {
+      "module": "extract_pdf_kg",
+      "elapsed_seconds": 26.1,
+      "status": "ok"
+    },
+    {
+      "module": "build_process_kg",
+      "elapsed_seconds": 47.595,
+      "status": "ok"
+    },
+    {
+      "module": "inspect_front_cabin_kg",
+      "elapsed_seconds": 3.105,
+      "status": "ok"
+    }
+  ],
+  "reports": {
+    "catproduct_extract_report": {
+      "input": "F:\\00041\\5536C10000G26_B\\5536C10000G26.CATProduct",
+      "warnings": [],
+      "nodes": 94,
+      "features": 390,
+      "hasComponent": 93,
+      "obb_available": 85,
+      "feature_note": "Feature extraction uses CATIA Publications, HybridBodies/HybridShapes, and filtered Parameters when available."
+    },
+    "pdf_extract_report": {
+      "inputs": [
+        {
+          "path": "F:\\00041\\5536C10000G26_B\\RPL5536C10000G26.pdf",
+          "pages": 12,
+          "empty_pages": 0,
+          "table_rows": 251,
+          "text_chars": 8750
+        },
+        {
+          "path": "F:\\00041\\5536C10000G26_B\\MPL5536C10000G26.pdf",
+          "pages": 4,
+          "empty_pages": 0,
+          "table_rows": 96,
+          "text_chars": 2170
+        }
+      ],
+      "warnings": [],
+      "parts": 103,
+      "connections_candidates": 0,
+      "process_mentions": 66,
+      "resource_mentions": 0,
+      "neo4j": {
+        "pdf_matched_to_catproduct_count": 45,
+        "pdf_unmatched_structural_part_count": 0,
+        "pdf_standard_part_count": 59,
+        "pdf_unmatched_ignored_count": 58
+      },
+      "pdf_matched_to_catproduct_count": 45,
+      "pdf_unmatched_structural_part_count": 0,
+      "pdf_standard_part_count": 59,
+      "connect_note": "PDF no longer creates connect relationships; connect is reserved for shared standard part evidence."
+    },
+    "process_build_report": {
+      "process_text": "9.3 垂直安定面前缘舱组件装配站位\n\n9.3.1 站位介绍\n\n前缘舱包括辅助梁、约 7 个前缘舱肋和左右壁板。辅助梁采用钣金或机加成型，前缘舱肋由铝合金厚板整体机加制成。前缘舱壁板采用玻璃纤维增强复合材料面板的蜂窝夹芯结构，芯材高度约 15~25mm，其中左侧壁板可分块拆卸，用以维护和更换前缘舱内安装的高频天线耦合器、系统管路等。\n\n9.3.2 装配流程\n\n1）定位前缘组件。定位方式采用前缘辅助梁上定位孔和腹板面定位。\n2）定位前缘舱肋。采用腹板面及定位孔定位。并在定位器上设前缘舱肋夹紧器，用于在定位时夹紧前缘舱肋。\n3）手工定位角材。\n4）定位两侧壁板。采用边缘定位挡块定位，并钻壁板与肋、前缘辅助梁上的初孔。\n5）制角材与辅助梁连接孔、前缘舱壁板连接孔、支撑件与肋连接孔并安装紧固件，其余部分初孔输出。\n6）利用吊具将前缘舱组件移至站位3。\n7）下架使用补铆托架安装紧固件及部分支架、涂胶密封，清洗排故。",
+      "process_nodes": 14,
+      "resource_nodes": 9,
+      "precedes_def": 14,
+      "parallel_def": 1,
+      "requiresResource": 16,
+      "process_feature_constraints": 6,
+      "requireProcess": 69,
+      "warnings": [],
+      "obb_fallback_to_aabb": true,
+      "planning_object_count": 19,
+      "standard_part_count": 0,
+      "excluded_reference_count": 10,
+      "excluded_standard_part_count": 0,
+      "object_category_counts": {
+        "前缘舱组件": 1,
+        "前缘舱肋": 7,
+        "角材": 6,
+        "缘条": 4,
+        "辅助梁": 2
+      },
+      "objects_without_category": 74,
+      "support_constraints_from_process_text": 104,
+      "support_constraint_categories": [
+        "前缘舱肋",
+        "缘条",
+        "角材",
+        "辅助梁"
+      ],
+      "support_constraint_examples": [
+        {
+          "dependent": "Part_1_10_5536C10311G72_5536C10311G72_1",
+          "dependent_category": "前缘舱肋",
+          "support": "Part_1_36_5536C14003G71_5536C14003G70_1",
+          "support_category": "辅助梁"
+        },
+        {
+          "dependent": "Part_1_10_5536C10311G72_5536C10311G72_1",
+          "dependent_category": "前缘舱肋",
+          "support": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+          "support_category": "辅助梁"
+        },
+        {
+          "dependent": "Part_1_13_5536C10403G71_5536C10403G71_1",
+          "dependent_category": "角材",
+          "support": "Part_1_10_5536C10311G72_5536C10311G72_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_13_5536C10403G71_5536C10403G71_1",
+          "dependent_category": "角材",
+          "support": "Part_1_14_5536C10411G72_5536C10411G72_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_13_5536C10403G71_5536C10403G71_1",
+          "dependent_category": "角材",
+          "support": "Part_1_18_5536C10511G72_5536C10511G72_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_13_5536C10403G71_5536C10403G71_1",
+          "dependent_category": "角材",
+          "support": "Part_1_22_5536C10611G72_5536C10611G72_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_13_5536C10403G71_5536C10403G71_1",
+          "dependent_category": "角材",
+          "support": "Part_1_2_5536C10101G71_5536C10101G71_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_13_5536C10403G71_5536C10403G71_1",
+          "dependent_category": "角材",
+          "support": "Part_1_36_5536C14003G71_5536C14003G70_1",
+          "support_category": "辅助梁"
+        },
+        {
+          "dependent": "Part_1_13_5536C10403G71_5536C10403G71_1",
+          "dependent_category": "角材",
+          "support": "Part_1_4_5536C10105G71_5536C10105G71_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_13_5536C10403G71_5536C10403G71_1",
+          "dependent_category": "角材",
+          "support": "Part_1_6_5536C10211G71_5536C10211G71_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_13_5536C10403G71_5536C10403G71_1",
+          "dependent_category": "角材",
+          "support": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+          "support_category": "辅助梁"
+        },
+        {
+          "dependent": "Part_1_14_5536C10411G72_5536C10411G72_1",
+          "dependent_category": "前缘舱肋",
+          "support": "Part_1_36_5536C14003G71_5536C14003G70_1",
+          "support_category": "辅助梁"
+        },
+        {
+          "dependent": "Part_1_14_5536C10411G72_5536C10411G72_1",
+          "dependent_category": "前缘舱肋",
+          "support": "SubAssembly_1_33_5536C12000G42_5536C12000G42_1",
+          "support_category": "辅助梁"
+        },
+        {
+          "dependent": "Part_1_15_5536C10413G72_5536C10413G72_1",
+          "dependent_category": "缘条",
+          "support": "Part_1_10_5536C10311G72_5536C10311G72_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_15_5536C10413G72_5536C10413G72_1",
+          "dependent_category": "缘条",
+          "support": "Part_1_14_5536C10411G72_5536C10411G72_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_15_5536C10413G72_5536C10413G72_1",
+          "dependent_category": "缘条",
+          "support": "Part_1_18_5536C10511G72_5536C10511G72_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_15_5536C10413G72_5536C10413G72_1",
+          "dependent_category": "缘条",
+          "support": "Part_1_22_5536C10611G72_5536C10611G72_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_15_5536C10413G72_5536C10413G72_1",
+          "dependent_category": "缘条",
+          "support": "Part_1_2_5536C10101G71_5536C10101G71_1",
+          "support_category": "前缘舱肋"
+        },
+        {
+          "dependent": "Part_1_15_5536C10413G72_5536C10413G72_1",
+          "dependent_category": "缘条",
+          "support": "Part_1_36_5536C14003G71_5536C14003G70_1",
+          "support_category": "辅助梁"
+        },
+        {
+          "dependent": "Part_1_15_5536C10413G72_5536C10413G72_1",
+          "dependent_category": "缘条",
+          "support": "Part_1_4_5536C10105G71_5536C10105G71_1",
+          "support_category": "前缘舱肋"
+        }
+      ],
+      "connect_created_by_shared_standard_part": 0,
+      "mayInterfere_created_by_obb": 29,
+      "planning_object_aabb_total": 19,
+      "planning_object_aabb_available": 0,
+      "planning_object_obb_total": 19,
+      "planning_object_obb_available": 19,
+      "support_constraint_count": 104,
+      "connect_evidence_note": "connect is not synthesized from planning results; it is only created when shared standard-part/fastener evidence can be mapped to two assembly objects.",
+      "mayInterfere_evidence_note": "mayInterfere is generated from CATIA Inertia OBB + step detection when OBB evidence exists; AABB is only a fallback.",
+      "feature_quality_counts": {
+        "high": 102,
+        "medium": 288,
+        "semantic": 5
+      },
+      "feature_used_for_process_constraint_count": 395,
+      "connect_count": 0,
+      "mayInterfere_count": 29,
+      "weak_requireProcess_count": 0
+    },
+    "inspect_report": {
+      "warnings": [],
+      "label_counts": {
+        "Feature": 395,
+        "Part": 84,
+        "Process": 14,
+        "Product": 1,
+        "Resource": 9,
+        "SubAssembly": 9
+      },
+      "relationship_counts": {
+        "constrainedBy": 500,
+        "hasComponent": 93,
+        "mayInterfere": 29,
+        "parallel_def": 1,
+        "precedes_def": 14,
+        "requireProcess": 69,
+        "requiresResource": 16
+      },
+      "required_label_counts": {
+        "Product": 1,
+        "SubAssembly": 9,
+        "Part": 84,
+        "Feature": 395,
+        "Process": 14,
+        "Resource": 9
+      },
+      "required_relationship_counts": {
+        "requireProcess": 69,
+        "requiresResource": 16,
+        "precedes_def": 14,
+        "parallel_def": 1,
+        "connect": 0,
+        "mayInterfere": 29,
+        "constrainedBy": 500
+      },
+      "planning_object_count": 19,
+      "standard_part_count": 0,
+      "excluded_reference_count": 10,
+      "excluded_standard_part_count": 0,
+      "objects_without_category": 74,
+      "object_category_counts": {
+        "": 74,
+        "前缘舱组件": 1,
+        "前缘舱肋": 7,
+        "缘条": 4,
+        "角材": 6,
+        "辅助梁": 2
+      },
+      "feature_quality_counts": {
+        "high": 102,
+        "medium": 288,
+        "semantic": 5
+      },
+      "feature_used_for_process_constraint_count": 395,
+      "weak_requireProcess_count": 0,
+      "support_constraint_count": 104,
+      "support_constraint_sources": {
+        "process_text_object_precedence": 104
+      },
+      "connect_created_by_shared_standard_part": 0,
+      "mayInterfere_created_by_obb": 29,
+      "connect_count": 0,
+      "mayInterfere_count": 29,
+      "obb_fallback_to_aabb": true,
+      "planning_object_aabb_total": 19,
+      "planning_object_aabb_available": 0,
+      "planning_object_obb_total": 19,
+      "planning_object_obb_available": 19,
+      "empty_material_objects": 94,
+      "material_note": "Empty material is allowed and is not treated as an error.",
+      "connect_note": "connect is only created from shared standard part evidence.",
+      "mayInterfere_note": "mayInterfere is generated from CATIA Inertia OBB + step detection; AABB is fallback only.",
+      "support_note": "Object-level support constraints are derived only from explicit process-text precedence and hasComponent during planning; they are not inferred from optimized sequences.",
+      "pdf_matched_to_catproduct_count": 45,
+      "pdf_unmatched_structural_part_count": 0,
+      "pdf_standard_part_count": 59
+    }
+  },
+  "planning_quality_summary": {
+    "planning_object_count": 19,
+    "standard_part_count": 0,
+    "excluded_reference_count": 10,
+    "excluded_standard_part_count": 0,
+    "object_category_counts": {
+      "": 74,
+      "前缘舱组件": 1,
+      "前缘舱肋": 7,
+      "缘条": 4,
+      "角材": 6,
+      "辅助梁": 2
+    },
+    "weak_requireProcess_count": 0,
+    "objects_without_category": 74,
+    "feature_quality_counts": {
+      "high": 102,
+      "medium": 288,
+      "semantic": 5
+    },
+    "feature_used_for_process_constraint_count": 395,
+    "connect_count": 0,
+    "connect_created_by_shared_standard_part": 0,
+    "mayInterfere_count": 29,
+    "mayInterfere_created_by_obb": 29,
+    "obb_fallback_to_aabb": true,
+    "planning_object_obb_total": 19,
+    "planning_object_obb_available": 19,
+    "pdf_matched_to_catproduct_count": 45,
+    "pdf_unmatched_structural_part_count": 0,
+    "pdf_standard_part_count": 59
+  },
+  "status": "ok"
+}

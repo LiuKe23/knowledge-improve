@@ -1,0 +1,4 @@
+﻿algorithm,population_size,iterations,avg_convergence_iteration,direction_maintains,tool_maintains,continuity_maintains,connect_break_penalty,spatial_jump_penalty,spatial_flow_penalty,kg_continuity_penalty,best_fitness,avg_fitness,best_hit_rate_percent,avg_runtime_s
+KG-IGA,20,20,20,7,30,7,36.0,71.228419,1.899288,107.228419,136.72841927186215,150.426579,33.33,1.430781
+RL,20,20,17.333,8,40,4,39.0,94.933747,2.671301,133.933747,146.43374686356174,148.057213,0.0,2.125185
+DRL,20,20,3,6,32,5,38.0,159.998558,4.505386,197.998558,229.49855809165976,242.858161,0.0,6.395271

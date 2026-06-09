@@ -1,0 +1,81 @@
+{
+  "warnings": [],
+  "label_counts": {
+    "Feature": 395,
+    "Part": 84,
+    "Process": 14,
+    "Product": 1,
+    "Resource": 9,
+    "SubAssembly": 9
+  },
+  "relationship_counts": {
+    "connect": 71,
+    "constrainedBy": 1095,
+    "hasComponent": 93,
+    "mayInterfere": 132,
+    "parallel_def": 1,
+    "precedes_def": 14,
+    "requireProcess": 152,
+    "requiresResource": 16
+  },
+  "required_label_counts": {
+    "Product": 1,
+    "SubAssembly": 9,
+    "Part": 84,
+    "Feature": 395,
+    "Process": 14,
+    "Resource": 9
+  },
+  "required_relationship_counts": {
+    "requireProcess": 152,
+    "requiresResource": 16,
+    "precedes_def": 14,
+    "parallel_def": 1,
+    "connect": 71,
+    "mayInterfere": 132,
+    "constrainedBy": 1095
+  },
+  "planning_object_count": 44,
+  "standard_part_count": 0,
+  "excluded_reference_count": 10,
+  "excluded_standard_part_count": 0,
+  "objects_without_category": 49,
+  "object_category_counts": {
+    "": 49,
+    "前缘舱组件": 1,
+    "前缘舱肋": 7,
+    "壁板": 8,
+    "缘条": 4,
+    "角材": 12,
+    "辅助梁": 1,
+    "连接带板": 12
+  },
+  "feature_quality_counts": {
+    "high": 102,
+    "medium": 288,
+    "semantic": 5
+  },
+  "feature_used_for_process_constraint_count": 395,
+  "weak_requireProcess_count": 0,
+  "support_constraint_count": 699,
+  "support_constraint_sources": {
+    "process_text_object_precedence": 699
+  },
+  "connect_created_by_shared_standard_part": 0,
+  "mayInterfere_created_by_obb": 132,
+  "connect_count": 71,
+  "mayInterfere_count": 132,
+  "obb_fallback_to_aabb": true,
+  "planning_object_aabb_total": 44,
+  "planning_object_aabb_available": 0,
+  "planning_object_obb_total": 44,
+  "planning_object_obb_available": 44,
+  "empty_material_objects": 94,
+  "material_note": "Empty material is allowed and is not treated as an error.",
+  "connect_note": "connect is created from approved CATIA Contact report evidence and, when available, shared standard part evidence.",
+  "mayInterfere_note": "mayInterfere is generated from CATIA Inertia OBB + step detection; AABB is fallback only.",
+  "support_note": "Object-level support constraints are derived only from explicit process-text precedence and hasComponent during planning; they are not inferred from optimized sequences.",
+  "pdf_matched_to_catproduct_count": 45,
+  "pdf_unmatched_structural_part_count": 0,
+  "pdf_standard_part_count": 59
+}

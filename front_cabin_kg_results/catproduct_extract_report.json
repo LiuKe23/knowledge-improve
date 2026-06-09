@@ -1,0 +1,9 @@
+{
+  "input": "F:\\00041\\5536C10000G26_B\\5536C10000G26.CATProduct",
+  "warnings": [],
+  "nodes": 94,
+  "features": 390,
+  "hasComponent": 93,
+  "obb_available": 85,
+  "feature_note": "Feature extraction uses CATIA Publications, HybridBodies/HybridShapes, and filtered Parameters when available."
+}

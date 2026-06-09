@@ -1,0 +1,32 @@
+{
+  "method": "sequence-level geometry feasibility hard check",
+  "all_directions": [
+    "+X",
+    "-X",
+    "+Y",
+    "-Y",
+    "+Z",
+    "-Z"
+  ],
+  "rule": "At each step, union mayInterfere.directions against assembled objects; the step is feasible if at least one direction remains available.",
+  "algorithms": {
+    "GA-no-connect": {
+      "is_geometry_feasible": true,
+      "first_blocked_step": null,
+      "blocked_step_count": 0,
+      "blocked_steps": []
+    },
+    "KG-IGA-no-connect": {
+      "is_geometry_feasible": true,
+      "first_blocked_step": null,
+      "blocked_step_count": 0,
+      "blocked_steps": []
+    },
+    "KG-IGAv5": {
+      "is_geometry_feasible": true,
+      "first_blocked_step": null,
+      "blocked_step_count": 0,
+      "blocked_steps": []
+    }
+  }
+}

@@ -1,0 +1,147 @@
+﻿part_number,display_name,name_cn,quantity,material,object_category,is_standard_part,is_structural_part,source_pdf,evidence
+MS21076L3N,密封定义2 密封说明,密封定义2 密封说明,,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"密封定义2 密封说明  电搭接贴合面密封：凹陷垫圈NAS1169C10与复合材料零件的铜网贴合面、托板螺母
+MS21076L3N（托板）与金属零件贴合面进行贴合面密封。   "
+5536C14003G71,附注信息,附注信息,,,辅助梁,True,True,RPL5536C10000G26.pdf,"附注信息 EN1=P00000106|装配车间操作按CPS2000。|CPS2000
+EN2=P00000896|纯金属结构的连接，高锁螺栓制孔方法按CPS2003，采用标准干涉配合。|CPS2003
+EN3=P00000109|金属零件的制孔按CPS2010。|CPS2010
+EN4=P00000110|复合材料制件的制孔按CPS2011。|CPS2011
+EN5=P00000130|高锁螺栓的安装按CPS2112。|CPS2112
+EN6=P00001473|实心铆钉铆接程序按CPS2100。Riveting process for the solid rivets refer to CPS2100.|CPS2100
+EN7=P00000143|复合材料结构的高锁螺栓和环槽钉的安装 按CPS2142。|CPS2142
+EN8=P00000145|复合材料结构的螺栓和螺母安装按CPS2144。|CPS2144
+EN9=NAS类螺栓与铆接托板螺母MS21076L3N组合连接的零件制孔范围为5.055mm至5.131mm，与铆接托板螺母
+MS21076L08N组合连接的零件制孔范围为4."
+CFBL1002AG6-3,钛合金抗剪型100度沉头高锁螺栓,钛合金抗剪型100度沉头高锁螺栓,38,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1002AG6-3  钛合金抗剪型100度沉头高锁螺栓  38  
+CFBL1002AG6-4,钛合金抗剪型100度沉头高锁螺栓,钛合金抗剪型100度沉头高锁螺栓,233,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1002AG6-4  钛合金抗剪型100度沉头高锁螺栓  233  
+CFBL1002AG6-5,钛合金抗剪型100度沉头高锁螺栓,钛合金抗剪型100度沉头高锁螺栓,295,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1002AG6-5  钛合金抗剪型100度沉头高锁螺栓  295  
+CFBL1002AG6-6,钛合金抗剪型100度沉头高锁螺栓,钛合金抗剪型100度沉头高锁螺栓,77,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1002AG6-6  钛合金抗剪型100度沉头高锁螺栓  77  
+CFBL1002AG6-7,钛合金抗剪型100度沉头高锁螺栓,钛合金抗剪型100度沉头高锁螺栓,114,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1002AG6-7  钛合金抗剪型100度沉头高锁螺栓  114  
+CFBL1002AG6-8,钛合金抗剪型100度沉头高锁螺栓,钛合金抗剪型100度沉头高锁螺栓,118,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1002AG6-8  钛合金抗剪型100度沉头高锁螺栓  118  
+CFBL1002AG6-9,钛合金抗剪型100度沉头高锁螺栓,钛合金抗剪型100度沉头高锁螺栓,16,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1002AG6-9  钛合金抗剪型100度沉头高锁螺栓  16  
+CFBL1002AG8-9,钛合金抗剪型100度沉头高锁螺栓,钛合金抗剪型100度沉头高锁螺栓,8,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1002AG8-9  钛合金抗剪型100度沉头高锁螺栓  8  
+CFBL1003AG5-3,钛合金抗拉型平头高锁螺栓,钛合金抗拉型平头高锁螺栓,10,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1003AG5-3  钛合金抗拉型平头高锁螺栓  10  
+CFBL1003AG5-4,钛合金抗拉型平头高锁螺栓,钛合金抗拉型平头高锁螺栓,3,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1003AG5-4  钛合金抗拉型平头高锁螺栓  3  
+CFBL1003AG6-2,钛合金抗拉型平头高锁螺栓,钛合金抗拉型平头高锁螺栓,86,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1003AG6-2  钛合金抗拉型平头高锁螺栓  86  
+CFBL1003AG6-3,螺栓,螺栓,119,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1003AG6-3  螺栓  119  
+CFBL1003AG6-4,钛合金抗拉型平头高锁螺栓,钛合金抗拉型平头高锁螺栓,90,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1003AG6-4  钛合金抗拉型平头高锁螺栓  90  
+CFBL1003AG6-5,螺栓,螺栓,43,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1003AG6-5  螺栓  43  
+CFBL1003AG6-6,螺栓,螺栓,40,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1003AG6-6  螺栓  40  
+CFBL1003AG6-7,螺栓,螺栓,29,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFBL1003AG6-7  螺栓  29  
+CFNT1001TB5,螺母,螺母,13,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFNT1001TB5  螺母  13  
+CFNT1001TB6,螺母,螺母,407,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFNT1001TB6  螺母  407  
+CFNT1003CY6,螺母,螺母,891,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFNT1003CY6  螺母  891  
+CFNT1003CY8,高锁螺母,高锁螺母,8,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,CFNT1003CY8  高锁螺母  8  
+MS20426AD3-10,实心铆钉,实心铆钉,8,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS20426AD3-10  实心铆钉  8  
+MS20426AD3-4,沉头铆钉,沉头铆钉,164,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS20426AD3-4  沉头铆钉  164  
+MS20426AD3-5,沉头铆钉,沉头铆钉,614,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS20426AD3-5  沉头铆钉  614  
+MS20426AD3-6,沉头铆钉,沉头铆钉,56,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS20426AD3-6  沉头铆钉  56  
+MS20426AD3-7,实心铆钉,实心铆钉,12,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS20426AD3-7  实心铆钉  12  
+MS20426AD3-8,实心铆钉,实心铆钉,20,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS20426AD3-8  实心铆钉  20  
+MS20426AD3-9,实心铆钉,实心铆钉,4,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS20426AD3-9  实心铆钉  4  
+MS20470AD6-6,铆钉,铆钉,10,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS20470AD6-6  铆钉  10  
+MS20470AD6-7,实心铆钉,实心铆钉,14,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS20470AD6-7  实心铆钉  14  
+MS20470AD6-8,铆钉,铆钉,2,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS20470AD6-8  铆钉  2  
+MS21076L08N,螺母,螺母,30,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,MS21076L08N  螺母  30  
+NAS1169C10,垫圈,垫圈,48,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1169C10  垫圈  48  
+NAS1195DD3XH,垫圈,垫圈,93,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1195DD3XH  垫圈  93  
+NAS1195DD3XM,垫圈,垫圈,237,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1195DD3XM  垫圈  237  
+NAS1580V3T10G,沉头螺栓,沉头螺栓,2,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1580V3T10G  沉头螺栓  2  
+NAS1580V3T4G,沉头螺栓,沉头螺栓,48,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1580V3T4G  沉头螺栓  48  
+NAS1580V3T5G,沉头螺栓,沉头螺栓,221,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1580V3T5G  沉头螺栓  221  
+NAS1580V3T6G,沉头螺栓,沉头螺栓,58,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1580V3T6G  沉头螺栓  58  
+NAS1580V3T7G,沉头螺栓,沉头螺栓,14,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1580V3T7G  沉头螺栓   14  
+NAS1580V3T8G,沉头螺栓,沉头螺栓,14,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1580V3T8G  沉头螺栓   14  
+NAS1580V3T9G,沉头螺栓,沉头螺栓,4,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1580V3T9G  沉头螺栓   4  
+NAS8702U5,螺栓,螺栓,30,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS8702U5  螺栓   30  
+NAS8703U4,螺栓,螺栓,32,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS8703U4  螺栓   32  
+NAS8703U5,螺栓,螺栓,16,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS8703U5  螺栓   16  
+CFBL1003,"钛合金抗拉型凸头高锁螺栓Protruding tension headtitanium hex-drive
+bolt","钛合金抗拉型凸头高锁螺栓Protruding tension headtitanium hex-drive
+bolt",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"CFBL1003   钛合金抗拉型凸头高锁螺栓Protruding tension headtitanium hex-drive
+bolt    "
+CFNT1001,"抗拉型A286高温合金高锁螺母Tension,A286,collar,assembled withhex-
+drive bolt","抗拉型A286高温合金高锁螺母Tension,A286,collar,assembled withhex-
+drive bolt",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"CFNT1001   抗拉型A286高温合金高锁螺母Tension,A286,collar,assembled withhex-
+drive bolt    "
+CFBL1002,"钛合金抗剪型100°沉头高锁螺栓100°Flush shear headtitanium hex-
+drive bolt","钛合金抗剪型100°沉头高锁螺栓100°Flush shear headtitanium hex-
+drive bolt",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"CFBL1002   钛合金抗剪型100°沉头高锁螺栓100°Flush shear headtitanium hex-
+drive bolt    "
+CFNT1003,"高锁螺母，铝合金，抗剪型Collar, aluminium alloy,shear application","高锁螺母，铝合金，抗剪型Collar, aluminium alloy,shear application",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"CFNT1003   高锁螺母，铝合金，抗剪型Collar, aluminium alloy,shear application    "
+NAS4003,"FASTENER, A286 CORROSION RESISTANT ALLOY, EXTERNALLY
+THREADED, 160 KSI Ftu, 95 KSI Fsu, 1000℉耐蚀钢A286螺栓采购规范","FASTENER, A286 CORROSION RESISTANT ALLOY, EXTERNALLY
+THREADED, 160 KSI Ftu, 95 KSI Fsu, 1000℉耐蚀钢A286螺栓采购规范",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"NAS4003   FASTENER, A286 CORROSION RESISTANT ALLOY, EXTERNALLY
+THREADED, 160 KSI Ftu, 95 KSI Fsu, 1000℉耐蚀钢A286螺栓采购规范    "
+NAS8702,"BOLT,100°REDUCED HEAD,PHILLIPS@RECESS, CLOSE
+TOLERANCE,A-286,SHORT THREAD 短螺纹100°缩径沉头螺栓","BOLT,100°REDUCED HEAD,PHILLIPS@RECESS, CLOSE
+TOLERANCE,A-286,SHORT THREAD 短螺纹100°缩径沉头螺栓",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"NAS8702～8716  BOLT,100°REDUCED HEAD,PHILLIPS@RECESS, CLOSE
+TOLERANCE,A-286,SHORT THREAD 短螺纹100°缩径沉头螺栓   "
+NAS1169,"WASHER, DIMPLED,100°100°凹陷垫圈","WASHER, DIMPLED,100°100°凹陷垫圈",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"NAS1169  WASHER, DIMPLED,100°100°凹陷垫圈   "
+NASM21076,"NUT,SELF-LOCKING,PLATE,TWO LUG,FLOATING,REDUCED TIVET
+SPCING,LOW HEIGHT,CRES,125KSI Ftu,450℉&800℉双耳游动托板自
+锁螺母（铆钉孔间距小）","NUT,SELF-LOCKING,PLATE,TWO LUG,FLOATING,REDUCED TIVET
+SPCING,LOW HEIGHT,CRES,125KSI Ftu,450℉&800℉双耳游动托板自
+锁螺母（铆钉孔间距小）",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"NASM21076  NUT,SELF-LOCKING,PLATE,TWO LUG,FLOATING,REDUCED TIVET
+SPCING,LOW HEIGHT,CRES,125KSI Ftu,450℉&800℉双耳游动托板自
+锁螺母（铆钉孔间距小）   "
+NASM20426,"RIVET, SOLID, COUNTERSUNK 100°, PRECISION
+HEAD,ALUMINUM AND TITANIUM COLUMBIUM ALLOY100°沉头
+实心铆钉","RIVET, SOLID, COUNTERSUNK 100°, PRECISION
+HEAD,ALUMINUM AND TITANIUM COLUMBIUM ALLOY100°沉头
+实心铆钉",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"NASM20426  RIVET, SOLID, COUNTERSUNK 100°, PRECISION
+HEAD,ALUMINUM AND TITANIUM COLUMBIUM ALLOY100°沉头
+实心铆钉   "
+NAS1580,100°沉头偏心十字槽和一字槽抗剪螺栓,100°沉头偏心十字槽和一字槽抗剪螺栓,,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1580  100°沉头偏心十字槽和一字槽抗剪螺栓   
+NASM5674,"RIVETS, STRUCTURAL, ALUMINUM ALLOY, TITANIUM
+COLUMBIUM ALLOY铝合金及钛铌合金实心铆钉采购规范","RIVETS, STRUCTURAL, ALUMINUM ALLOY, TITANIUM
+COLUMBIUM ALLOY铝合金及钛铌合金实心铆钉采购规范",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"NASM5674  RIVETS, STRUCTURAL, ALUMINUM ALLOY, TITANIUM
+COLUMBIUM ALLOY铝合金及钛铌合金实心铆钉采购规范   "
+NASM20470,"RIVET,SOLID,UNIVERSAL HEAD,ALUMINUM ALLOY AND
+TITANIUM COLUMBIUM ALLOY普通圆头实心铆钉","RIVET,SOLID,UNIVERSAL HEAD,ALUMINUM ALLOY AND
+TITANIUM COLUMBIUM ALLOY普通圆头实心铆钉",,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,"NASM20470  RIVET,SOLID,UNIVERSAL HEAD,ALUMINUM ALLOY AND
+TITANIUM COLUMBIUM ALLOY普通圆头实心铆钉   "
+NAS1195,SHIM - MINIATURE ANCHOR NUT缩小型托板螺母垫片,SHIM - MINIATURE ANCHOR NUT缩小型托板螺母垫片,,,标准件/紧固件,True,False,RPL5536C10000G26.pdf,NAS1195  SHIM - MINIATURE ANCHOR NUT缩小型托板螺母垫片   
+5536C10101G71,1号肋,1号肋,1,,前缘舱肋,False,True,MPL5536C10000G26.pdf,5536C10101G71     1号肋  1   
+5536C10103G71,1号肋角材,1号肋角材,1,,角材,False,True,MPL5536C10000G26.pdf,5536C10103G71     1号肋角材  1   
+5536C10105G71,1号肋,1号肋,1,,前缘舱肋,False,True,MPL5536C10000G26.pdf,5536C10105G71     1号肋  1   
+5536C10203G71,2号肋角材,2号肋角材,1,,角材,False,True,MPL5536C10000G26.pdf,5536C10203G71     2号肋角材  1   
+5536C10211G71,2号肋,2号肋,1,,前缘舱肋,False,True,MPL5536C10000G26.pdf,5536C10211G71     2号肋  1   
+5536C10213G70,2号肋缘条,2号肋缘条,1,,缘条,False,True,MPL5536C10000G26.pdf,5536C10213G70     2号肋缘条  1   
+5536C10214G70,2号肋缘条,2号肋缘条,1,,缘条,False,True,MPL5536C10000G26.pdf,5536C10214G70     2号肋缘条  1   
+5536C10303G71,3号肋角材,3号肋角材,1,,角材,False,True,MPL5536C10000G26.pdf,5536C10303G71     3号肋角材  1   
+5536C10311G72,3号肋,3号肋,1,,前缘舱肋,False,True,MPL5536C10000G26.pdf,5536C10311G72     3号肋  1   
+5536C10313G70,角片,角片,1,,,False,False,MPL5536C10000G26.pdf,5536C10313G70     角片  1   
+5536C10314G70,角片,角片,1,,,False,False,MPL5536C10000G26.pdf,5536C10314G70  角片  1  
+5536C10403G71,4号肋角材,4号肋角材,1,,角材,False,True,MPL5536C10000G26.pdf,5536C10403G71  4号肋角材  1  
+5536C10411G72,4号肋,4号肋,1,,前缘舱肋,False,True,MPL5536C10000G26.pdf,5536C10411G72  4号肋  1  
+5536C10413G72,4号肋缘条,4号肋缘条,1,,缘条,False,True,MPL5536C10000G26.pdf,5536C10413G72  4号肋缘条  1  
+5536C10414G72,4号肋缘条,4号肋缘条,1,,缘条,False,True,MPL5536C10000G26.pdf,5536C10414G72  4号肋缘条  1  
+5536C10503G71,5号肋角材,5号肋角材,1,,角材,False,True,MPL5536C10000G26.pdf,5536C10503G71  5号肋角材  1  
+5536C10511G72,5号肋,5号肋,1,,前缘舱肋,False,True,MPL5536C10000G26.pdf,5536C10511G72  5号肋  1  
+5536C10513G70,角片,角片,1,,,False,False,MPL5536C10000G26.pdf,5536C10513G70  角片  1  
+5536C10514G70,角片,角片,1,,,False,False,MPL5536C10000G26.pdf,5536C10514G70  角片  1  
+5536C10603G71,6号肋角材,6号肋角材,1,,角材,False,True,MPL5536C10000G26.pdf,5536C10603G71  6号肋角材  1  
+5536C10611G72,6号肋,6号肋,1,,前缘舱肋,False,True,MPL5536C10000G26.pdf,5536C10611G72  6号肋  1  
+5536C10613G70,角片,角片,1,,,False,False,MPL5536C10000G26.pdf,5536C10613G70  角片  1  
+5536C10614G70,角片,角片,1,,,False,False,MPL5536C10000G26.pdf,5536C10614G70  角片  1  
+5536C11001G41,左侧下封面板,左侧下封面板,1,,,False,False,MPL5536C10000G26.pdf,5536C11001G41  左侧下封面板  1  
+5536C11002G41,右侧下封面板,右侧下封面板,1,,,False,False,MPL5536C10000G26.pdf,5536C11002G41  右侧下封面板  1  
+5536C11003G41,左侧1号夹芯板,左侧1号夹芯板,1,,,False,False,MPL5536C10000G26.pdf,5536C11003G41  左侧1号夹芯板  1  
+5536C11004G41,右侧1号夹芯板,右侧1号夹芯板,1,,,False,False,MPL5536C10000G26.pdf,5536C11004G41  右侧1号夹芯板  1  
+5536C11005G41,左侧2号夹芯板,左侧2号夹芯板,1,,,False,False,MPL5536C10000G26.pdf,5536C11005G41  左侧2号夹芯板  1  
+5536C11006G41,右侧2号夹芯板,右侧2号夹芯板,1,,,False,False,MPL5536C10000G26.pdf,5536C11006G41  右侧2号夹芯板  1  
+5536C11007G41,左侧3号夹芯板,左侧3号夹芯板,1,,,False,False,MPL5536C10000G26.pdf,5536C11007G41  左侧3号夹芯板  1  
+5536C11008G41,右侧3号夹芯板,右侧3号夹芯板,1,,,False,False,MPL5536C10000G26.pdf,5536C11008G41  右侧3号夹芯板   1  
+5536C12000G42,辅助梁组件,辅助梁组件,1,,辅助梁,False,True,MPL5536C10000G26.pdf,5536C12000G42  辅助梁组件   1  
+5536C14001G71,1号连接带板,1号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14001G71  1号连接带板   1  
+5536C14002G71,1号连接带板,1号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14002G71  1号连接带板   1  
+5536C14003G71,2号连接带板,2号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14003G71  2号连接带板   1  
+5536C14004G71,2号连接带板,2号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14004G71  2号连接带板   1  
+5536C14005G71,3号连接带板,3号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14005G71  3号连接带板   1  
+5536C14006G71,3号连接带板,3号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14006G71  3号连接带板   1  
+5536C14007G71,4号连接带板,4号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14007G71  4号连接带板   1  
+5536C14008G71,4号连接带板,4号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14008G71  4号连接带板   1  
+5536C14009G71,5号连接带板,5号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14009G71  5号连接带板   1  
+5536C14010G71,5号连接带板,5号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14010G71  5号连接带板   1  
+5536C14011G71,6号连接带板,6号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14011G71  6号连接带板   1  
+5536C14012G71,6号连接带板,6号连接带板,1,,,False,False,MPL5536C10000G26.pdf,5536C14012G71  6号连接带板   1  

@@ -1,0 +1,8 @@
+﻿metric,global_plan,local_replan
+global_task_count,208,208
+done_task_count,0,21
+blocked_resource_task_count,0,87
+blocked_precedence_task_count,0,77
+available_residual_task_count,208,23
+recomputed_task_count,208,23
+runtime_s,see algorithm_summary.csv,0.009342

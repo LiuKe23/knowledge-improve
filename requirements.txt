@@ -1,0 +1,7 @@
+neo4j
+PyMuPDF
+pdfplumber
+pywin32; platform_system == "Windows"
+matplotlib
+pandas
+torch

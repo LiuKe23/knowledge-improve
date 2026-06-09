@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Local CATIA/contact intermediate files and raw-derived working exports.
+1/
+
+# Local logs/caches that can be regenerated.
+.pytest_cache/

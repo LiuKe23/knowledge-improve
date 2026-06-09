@@ -1,0 +1,33 @@
+{
+  "inputs": [
+    {
+      "path": "F:\\00041\\5536C10000G26_B\\RPL5536C10000G26.pdf",
+      "pages": 12,
+      "empty_pages": 0,
+      "table_rows": 251,
+      "text_chars": 8750
+    },
+    {
+      "path": "F:\\00041\\5536C10000G26_B\\MPL5536C10000G26.pdf",
+      "pages": 4,
+      "empty_pages": 0,
+      "table_rows": 96,
+      "text_chars": 2170
+    }
+  ],
+  "warnings": [],
+  "parts": 103,
+  "connections_candidates": 0,
+  "process_mentions": 66,
+  "resource_mentions": 0,
+  "neo4j": {
+    "pdf_matched_to_catproduct_count": 45,
+    "pdf_unmatched_structural_part_count": 0,
+    "pdf_standard_part_count": 59,
+    "pdf_unmatched_ignored_count": 58
+  },
+  "pdf_matched_to_catproduct_count": 45,
+  "pdf_unmatched_structural_part_count": 0,
+  "pdf_standard_part_count": 59,
+  "connect_note": "PDF no longer creates connect relationships; connect is reserved for shared standard part evidence."
+}

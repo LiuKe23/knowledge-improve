@@ -1,0 +1,21 @@
+{
+  "event_type": "RESOURCE_FAILURE",
+  "mode": "simulate",
+  "failed_resource_id": "RES_钻具",
+  "failed_resource_aliases": [
+    "RES_钻具",
+    "制孔",
+    "钻",
+    "钻具"
+  ],
+  "current_sequence_index": 21,
+  "global_task_count": 208,
+  "done_task_count": 21,
+  "blocked_by_resource_count": 87,
+  "blocked_by_precedence_count": 77,
+  "available_task_count": 23,
+  "local_replan_sequence_count": 23,
+  "local_replan_runtime_s": 0.009342,
+  "replan_strategy": "freeze_done_block_drilling_resource_extract_available_residual",
+  "data_integrity_note": "原始全局规划文件未覆盖；本次实验只输出 local_replan_* 文件。"
+}

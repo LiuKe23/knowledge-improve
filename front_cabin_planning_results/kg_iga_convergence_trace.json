@@ -1,0 +1,13 @@
+{
+  "initialization_policy": "GA and KG-IGA both use random feasible topological initialization; KG is not used to construct the initial population.",
+  "kg_information_budget": "KG-IGA only uses minimal cached local graph evidence during search: connect adjacency and resource-set equality around moved nodes.",
+  "ga_average_convergence_iteration": 34.25,
+  "kg_iga_average_convergence_iteration": 17.2,
+  "ga_average_fitness": 24.85,
+  "kg_iga_average_fitness": 23.975,
+  "ga_hit_rate_percent": 40.0,
+  "kg_iga_hit_rate_percent": 80.0,
+  "ga_average_runtime_s": 3.072664,
+  "kg_iga_average_runtime_s": 6.306582,
+  "runtime_ratio_kg_iga_to_ga": 2.052
+}

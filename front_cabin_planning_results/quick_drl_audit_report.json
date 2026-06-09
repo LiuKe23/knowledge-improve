@@ -1,0 +1,22 @@
+{
+  "audit_rows": 3,
+  "algorithms": [
+    "DRL",
+    "KG-IGA",
+    "RL"
+  ],
+  "same_initial_all_runs": true,
+  "problems": [],
+  "wins": {
+    "DRL": 0,
+    "KG-IGA": 1,
+    "RL": 2
+  },
+  "files": {
+    "F:\\proV1.8\\front_cabin_planning_results\\optimization_result_quick_drl.json": "d16672f36dce43556040c8d707efd0be780abb4d7e6fcc72011167a12dd9a827",
+    "F:\\proV1.8\\front_cabin_planning_results\\all_runs_detail_quick_drl.csv": "ce0647c5c78aeaea762df6e6eb3f46e1311a69ac90269ba2a667f78e4e0372ba",
+    "F:\\proV1.8\\front_cabin_planning_results\\algorithm_summary_quick_drl.csv": "a04fa0a6606a68d4dcbc293a773dbef1dd8bdf5d0fb5744c167f30a0a447815f",
+    "F:\\proV1.8\\front_cabin_planning_results\\convergence_curve_quick_drl.png": "9e9aca4103267fea378040aaecc0215e394520d43bd36de97d264841dccbbddf",
+    "F:\\proV1.8\\front_cabin_planning_results\\quick_drl_audit.csv": "b9edd1465c079defbbb9211b13dd83a8afd410ab16eef9c795508ad86760e20e"
+  }
+}

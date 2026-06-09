@@ -1,0 +1,14 @@
+{
+  "audit_rows": 20,
+  "same_initial_all_runs": true,
+  "problems": [],
+  "kgiga_wins": 17,
+  "rl_wins": 3,
+  "files": {
+    "F:\\proV1.8\\front_cabin_planning_results\\optimization_result_rl_vs_kgiga.json": "cb1b48c906d74d64b9fd9d067c06ff5852640a05439bbbc25a4cc2a7f9d6b0c6",
+    "F:\\proV1.8\\front_cabin_planning_results\\all_runs_detail_rl_vs_kgiga.csv": "dc49216f9a30f05192f33e3a2f6a333cc8bcac6ba5f7aa6ecf07367d7b557882",
+    "F:\\proV1.8\\front_cabin_planning_results\\algorithm_summary_rl_vs_kgiga.csv": "8f9e9104f54b0be99cc4e88cb81fb509f22400e1069765257443907fdcd5bdfa",
+    "F:\\proV1.8\\front_cabin_planning_results\\convergence_curve_rl_vs_kgiga.png": "0508e75e153f283dacb741747a6f3bd981a390b44e89240f5709cede90115227",
+    "F:\\proV1.8\\front_cabin_planning_results\\rl_vs_kgiga_audit.csv": "e2cc6fc76795f221b4405bd370b018e157901f2328e7d0cdb0d404c6e719736a"
+  }
+}

@@ -1,0 +1,4 @@
+﻿run,algorithms,shared_initial_csv,same_initial_csv,same_initial_curve,csv_matches_curve_start,winner,DRL_final_fitness,KG-IGA_final_fitness,RL_final_fitness
+1,"DRL,KG-IGA,RL",410.307262,True,True,True,KG-IGA,268.4049957527559,136.72841927186215,146.43374686356174
+2,"DRL,KG-IGA,RL",587.633831,True,True,True,RL,230.67092963970714,160.83050799304402,148.47052575191674
+3,"DRL,KG-IGA,RL",554.996273,True,True,True,RL,229.49855809165976,153.72081014828683,149.26736497052326

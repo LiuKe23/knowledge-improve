@@ -1,0 +1,9 @@
+﻿algorithm,runs,avg_guided_crossover_count,avg_guided_mutation_count,avg_knowledge_query_count,avg_repair_changed_count,guided_accept_rate_percent,avg_prescreen_reject_count,avg_initial_best_fitness,avg_direct_guide_attempt_count,avg_direct_guide_accept_count,avg_direct_guide_illegal_reject_count,avg_connect_candidate_count,avg_obb_fallback_count,avg_constraint_mutation_attempt_count,avg_constraint_mutation_accept_count,avg_constraint_mutation_shift_count,avg_constraint_mutation_reject_count,avg_no_repair_crossover_retry_count,avg_no_repair_illegal_child_count,avg_no_repair_valid_child_count,avg_no_repair_local_reject_count
+GA,20,0,0,0,590.45,0.0,0,493.987379,0,0,0,0,0,0,0,0,0,0,0,0,0
+GraphPlan,20,0,0,0,0,0.0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0
+KG-IGA,20,0,3736.2,3336.8,3149.6,10.49,0,518.156525,0,0,0,0,0,0,0,0,0,0,0,0,0
+KG-IGA-CM,20,0,3735.7,3320.4,2221.85,9.38,0,496.161744,0,0,0,0,0,1590.05,1536.1,884.35,53.95,0,0,0,0
+KG-IGA-CM-NR,20,0,1594.65,0,0,9.96,0,498.316366,0,0,0,0,0,3280.7,3280.7,1743.5,0,148.3,148.3,2880,180.05
+KG-IGAv2,20,0,1001.75,46274.65,604.1,11.72,0,506.098007,1001.75,117.45,884.3,3199.4,0,0,0,0,0,0,0,0,0
+KG-IGAv3,20,1083.9,1523.2,381089.05,1502.6,57.65,6937.4,506.098007,0,0,0,0,0,0,0,0,0,0,0,0,0
+PSO,20,0,0,0,0,0.0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0

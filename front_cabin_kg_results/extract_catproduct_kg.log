@@ -1,0 +1,12 @@
+2026-05-15 11:10:22,237 [INFO] extract_catproduct_kg - Opening CATProduct through CATIA COM: F:\00041\5536C10000G26_B\5536C10000G26.CATProduct
+2026-05-15 11:13:40,770 [INFO] extract_catproduct_kg - Clearing Neo4j graph with MATCH (n) DETACH DELETE n
+2026-05-15 11:14:40,817 [INFO] extract_catproduct_kg - CATProduct extraction complete: {'input': 'F:\\00041\\5536C10000G26_B\\5536C10000G26.CATProduct', 'warnings': [], 'nodes': 94, 'features': 462, 'hasComponent': 93, 'feature_note': 'Feature extraction uses CATIA Publications, HybridBodies/HybridShapes, and filtered Parameters when available.'}
+2026-05-15 13:02:46,072 [INFO] extract_catproduct_kg - Opening CATProduct through CATIA COM: F:\00041\5536C10000G26_B\5536C10000G26.CATProduct
+2026-05-15 13:02:57,451 [INFO] extract_catproduct_kg - Clearing Neo4j graph with MATCH (n) DETACH DELETE n
+2026-05-15 13:04:31,357 [INFO] extract_catproduct_kg - CATProduct extraction complete: {'input': 'F:\\00041\\5536C10000G26_B\\5536C10000G26.CATProduct', 'warnings': [], 'nodes': 94, 'features': 390, 'hasComponent': 93, 'feature_note': 'Feature extraction uses CATIA Publications, HybridBodies/HybridShapes, and filtered Parameters when available.'}
+2026-05-15 15:35:47,338 [INFO] extract_catproduct_kg - Opening CATProduct through CATIA COM: F:\00041\5536C10000G26_B\5536C10000G26.CATProduct
+2026-05-15 15:35:59,121 [INFO] extract_catproduct_kg - Clearing Neo4j graph with MATCH (n) DETACH DELETE n
+2026-05-15 15:38:01,639 [INFO] extract_catproduct_kg - CATProduct extraction complete: {'input': 'F:\\00041\\5536C10000G26_B\\5536C10000G26.CATProduct', 'warnings': [], 'nodes': 94, 'features': 390, 'hasComponent': 93, 'feature_note': 'Feature extraction uses CATIA Publications, HybridBodies/HybridShapes, and filtered Parameters when available.'}
+2026-05-15 16:07:08,951 [INFO] extract_catproduct_kg - Opening CATProduct through CATIA COM: F:\00041\5536C10000G26_B\5536C10000G26.CATProduct
+2026-05-15 16:09:49,447 [INFO] extract_catproduct_kg - Clearing Neo4j graph with MATCH (n) DETACH DELETE n
+2026-05-15 16:11:36,021 [INFO] extract_catproduct_kg - CATProduct extraction complete: {'input': 'F:\\00041\\5536C10000G26_B\\5536C10000G26.CATProduct', 'warnings': [], 'nodes': 94, 'features': 390, 'hasComponent': 93, 'obb_available': 85, 'feature_note': 'Feature extraction uses CATIA Publications, HybridBodies/HybridShapes, and filtered Parameters when available.'}

@@ -1,0 +1,834 @@
+工艺任务步骤 + 对应零件名称
+========================================
+001. 定位前缘组件_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 定位前缘组件
+     零件号: 5536C12000G42
+     零件名称: 辅助梁组件
+     推理依据: object_requireProcess_positioning
+002. 定位前缘舱肋_Part_1_4_5536C10105G71_5536C10105G71_1 | 工艺: 定位前缘舱肋
+     零件号: 5536C10105G71
+     零件名称: 1号肋
+     推理依据: object_requireProcess_positioning
+003. 定位前缘舱肋_Part_1_2_5536C10101G71_5536C10101G71_1 | 工艺: 定位前缘舱肋
+     零件号: 5536C10101G71
+     零件名称: 1号肋
+     推理依据: object_requireProcess_positioning
+004. 定位前缘舱肋_Part_1_6_5536C10211G71_5536C10211G71_1 | 工艺: 定位前缘舱肋
+     零件号: 5536C10211G71
+     零件名称: 2号肋
+     推理依据: object_requireProcess_positioning
+005. 定位前缘舱肋_Part_1_10_5536C10311G72_5536C10311G72_1 | 工艺: 定位前缘舱肋
+     零件号: 5536C10311G72
+     零件名称: 3号肋
+     推理依据: object_requireProcess_positioning
+006. 定位前缘舱肋_Part_1_14_5536C10411G72_5536C10411G72_1 | 工艺: 定位前缘舱肋
+     零件号: 5536C10411G72
+     零件名称: 4号肋
+     推理依据: object_requireProcess_positioning
+007. 定位前缘舱肋_Part_1_18_5536C10511G72_5536C10511G72_1 | 工艺: 定位前缘舱肋
+     零件号: 5536C10511G72
+     零件名称: 5号肋
+     推理依据: object_requireProcess_positioning
+008. 定位前缘舱肋_Part_1_22_5536C10611G72_5536C10611G72_1 | 工艺: 定位前缘舱肋
+     零件号: 5536C10611G72
+     零件名称: 6号肋
+     推理依据: object_requireProcess_positioning
+009. 手工定位角材_Part_1_3_5536C10103G71_5536C10103G71_1 | 工艺: 手工定位角材
+     零件号: 5536C10103G71
+     零件名称: 1号肋角材
+     推理依据: object_requireProcess_positioning
+010. 定位连接带板_Part_1_35_5536C14002G71_5536C14002G70_1 | 工艺: 手工定位角材
+     零件号: 5536C14002G71
+     零件名称: 1号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+011. 定位连接带板_Part_1_34_5536C14001G71_5536C14001G70_1 | 工艺: 手工定位角材
+     零件号: 5536C14001G71
+     零件名称: 1号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+012. 定位连接带板_Part_1_36_5536C14003G71_5536C14003G70_1 | 工艺: 手工定位角材
+     零件号: 5536C14003G71
+     零件名称: 2号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+013. 定位连接带板_Part_1_37_5536C14004G71_5536C14004G70_1 | 工艺: 手工定位角材
+     零件号: 5536C14004G71
+     零件名称: 2号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+014. 手工定位角材_Part_1_5_5536C10203G71_5536C10203G71_1 | 工艺: 手工定位角材
+     零件号: 5536C10203G71
+     零件名称: 2号肋角材
+     推理依据: object_requireProcess_positioning
+015. 手工定位角材_Part_1_7_5536C10213G70_5536C10213G70_1 | 工艺: 手工定位角材
+     零件号: 5536C10213G70
+     零件名称: 2号肋缘条
+     推理依据: object_requireProcess_positioning
+016. 手工定位角材_Part_1_8_5536C10214G70_5536C10214G70_1 | 工艺: 手工定位角材
+     零件号: 5536C10214G70
+     零件名称: 2号肋缘条
+     推理依据: object_requireProcess_positioning
+017. 手工定位角材_Part_1_9_5536C10303G71_5536C10303G71_1 | 工艺: 手工定位角材
+     零件号: 5536C10303G71
+     零件名称: 3号肋角材
+     推理依据: object_requireProcess_positioning
+018. 手工定位角材_Part_1_11_5536C10313G70_5536C10313G70_1 | 工艺: 手工定位角材
+     零件号: 5536C10313G70
+     零件名称: 角片
+     推理依据: object_requireProcess_positioning
+019. 手工定位角材_Part_1_12_5536C10314G70_5536C10314G70_1 | 工艺: 手工定位角材
+     零件号: 5536C10314G70
+     零件名称: 角片
+     推理依据: object_requireProcess_positioning
+020. 定位连接带板_Part_1_39_5536C14006G71_5536C14006G71_1 | 工艺: 手工定位角材
+     零件号: 5536C14006G71
+     零件名称: 3号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+021. 定位连接带板_Part_1_38_5536C14005G71_5536C14005G71_1 | 工艺: 手工定位角材
+     零件号: 5536C14005G71
+     零件名称: 3号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+022. 手工定位角材_Part_1_13_5536C10403G71_5536C10403G71_1 | 工艺: 手工定位角材
+     零件号: 5536C10403G71
+     零件名称: 4号肋角材
+     推理依据: object_requireProcess_positioning
+023. 手工定位角材_Part_1_15_5536C10413G72_5536C10413G72_1 | 工艺: 手工定位角材
+     零件号: 5536C10413G72
+     零件名称: 4号肋缘条
+     推理依据: object_requireProcess_positioning
+024. 手工定位角材_Part_1_16_5536C10414G72_5536C10414G72_1 | 工艺: 手工定位角材
+     零件号: 5536C10414G72
+     零件名称: 4号肋缘条
+     推理依据: object_requireProcess_positioning
+025. 定位连接带板_Part_1_40_5536C14007G71_5536C14007G71_1 | 工艺: 手工定位角材
+     零件号: 5536C14007G71
+     零件名称: 4号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+026. 定位连接带板_Part_1_41_5536C14008G71_5536C14008G71_1 | 工艺: 手工定位角材
+     零件号: 5536C14008G71
+     零件名称: 4号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+027. 手工定位角材_Part_1_17_5536C10503G71_5536C10503G70_1 | 工艺: 手工定位角材
+     零件号: 5536C10503G71
+     零件名称: 5号肋角材
+     推理依据: object_requireProcess_positioning
+028. 手工定位角材_Part_1_20_5536C10514G70_5536C10514G70_1 | 工艺: 手工定位角材
+     零件号: 5536C10514G70
+     零件名称: 角片
+     推理依据: object_requireProcess_positioning
+029. 手工定位角材_Part_1_19_5536C10513G70_5536C10513G70_1 | 工艺: 手工定位角材
+     零件号: 5536C10513G70
+     零件名称: 角片
+     推理依据: object_requireProcess_positioning
+030. 定位连接带板_Part_1_42_5536C14009G71_5536C14009G72_1 | 工艺: 手工定位角材
+     零件号: 5536C14009G71
+     零件名称: 5号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+031. 定位连接带板_Part_1_43_5536C14010G71_5536C14010G72_1 | 工艺: 手工定位角材
+     零件号: 5536C14010G71
+     零件名称: 5号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+032. 手工定位角材_Part_1_21_5536C10603G71_5536C10603G71_1 | 工艺: 手工定位角材
+     零件号: 5536C10603G71
+     零件名称: 6号肋角材
+     推理依据: object_requireProcess_positioning
+033. 手工定位角材_Part_1_24_5536C10614G70_5536C10614G70_1 | 工艺: 手工定位角材
+     零件号: 5536C10614G70
+     零件名称: 角片
+     推理依据: object_requireProcess_positioning
+034. 手工定位角材_Part_1_23_5536C10613G70_5536C10613G70_1 | 工艺: 手工定位角材
+     零件号: 5536C10613G70
+     零件名称: 角片
+     推理依据: object_requireProcess_positioning
+035. 定位连接带板_Part_1_44_5536C14011G71_5536C14011G71_1 | 工艺: 手工定位角材
+     零件号: 5536C14011G71
+     零件名称: 6号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+036. 定位连接带板_Part_1_45_5536C14012G71_5536C14012G71_1 | 工艺: 手工定位角材
+     零件号: 5536C14012G71
+     零件名称: 6号连接带板
+     推理依据: object_requireProcess_connection_belt_positioning
+037. 定位两侧壁板_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 定位两侧壁板
+     零件号: 5536C11008G41
+     零件名称: 右侧3号夹芯板
+     推理依据: object_requireProcess_positioning
+038. 定位两侧壁板_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 定位两侧壁板
+     零件号: 5536C11007G41
+     零件名称: 左侧3号夹芯板
+     推理依据: object_requireProcess_positioning
+039. 定位两侧壁板_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 定位两侧壁板
+     零件号: 5536C11005G41
+     零件名称: 左侧2号夹芯板
+     推理依据: object_requireProcess_positioning
+040. 定位两侧壁板_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 定位两侧壁板
+     零件号: 5536C11006G41
+     零件名称: 右侧2号夹芯板
+     推理依据: object_requireProcess_positioning
+041. 定位两侧壁板_SubAssembly_1_28_5536C11004G41_5536C11004G41 | 工艺: 定位两侧壁板
+     零件号: 5536C11004G41
+     零件名称: 右侧1号夹芯板
+     推理依据: object_requireProcess_positioning
+042. 定位两侧壁板_SubAssembly_1_26_5536C11002G41_5536C11002G41_1 | 工艺: 定位两侧壁板
+     零件号: 5536C11002G41
+     零件名称: 右侧下封面板
+     推理依据: object_requireProcess_positioning
+043. 定位两侧壁板_SubAssembly_1_25_5536C11001G41_5536C11001G41_1 | 工艺: 定位两侧壁板
+     零件号: 5536C11001G41
+     零件名称: 左侧下封面板
+     推理依据: object_requireProcess_positioning
+044. 定位两侧壁板_SubAssembly_1_27_5536C11003G41_5536C11003G41 | 工艺: 定位两侧壁板
+     零件号: 5536C11003G41
+     零件名称: 左侧1号夹芯板
+     推理依据: object_requireProcess_positioning
+045. 制初孔_Part_1_2_5536C10101G71_5536C10101G71_1_Part_1_4_5536C10105G71_5536C10105G71_1 | 工艺: 制初孔
+     零件号: 5536C10101G71, 5536C10105G71
+     零件名称: 1号肋, 1号肋
+     推理依据: connect_and_both_require_initial_hole
+046. 制初孔_Part_1_4_5536C10105G71_5536C10105G71_1_SubAssembly_1_28_5536C11004G41_5536C11004G41 | 工艺: 制初孔
+     零件号: 5536C10105G71, 5536C11004G41
+     零件名称: 1号肋, 右侧1号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+047. 制初孔_Part_1_4_5536C10105G71_5536C10105G71_1_SubAssembly_1_26_5536C11002G41_5536C11002G41_1 | 工艺: 制初孔
+     零件号: 5536C10105G71, 5536C11002G41
+     零件名称: 1号肋, 右侧下封面板
+     推理依据: connect_and_both_require_initial_hole
+048. 制初孔_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_26_5536C11002G41_5536C11002G41_1 | 工艺: 制初孔
+     零件号: 5536C10101G71, 5536C11002G41
+     零件名称: 1号肋, 右侧下封面板
+     推理依据: connect_and_both_require_initial_hole
+049. 制初孔_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_25_5536C11001G41_5536C11001G41_1 | 工艺: 制初孔
+     零件号: 5536C10101G71, 5536C11001G41
+     零件名称: 1号肋, 左侧下封面板
+     推理依据: connect_and_both_require_initial_hole
+050. 制初孔_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_27_5536C11003G41_5536C11003G41 | 工艺: 制初孔
+     零件号: 5536C10101G71, 5536C11003G41
+     零件名称: 1号肋, 左侧1号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+051. 制初孔_Part_1_6_5536C10211G71_5536C10211G71_1_SubAssembly_1_28_5536C11004G41_5536C11004G41 | 工艺: 制初孔
+     零件号: 5536C10211G71, 5536C11004G41
+     零件名称: 2号肋, 右侧1号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+052. 制初孔_Part_1_6_5536C10211G71_5536C10211G71_1_SubAssembly_1_27_5536C11003G41_5536C11003G41 | 工艺: 制初孔
+     零件号: 5536C10211G71, 5536C11003G41
+     零件名称: 2号肋, 左侧1号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+053. 制初孔_Part_1_10_5536C10311G72_5536C10311G72_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 制初孔
+     零件号: 5536C10311G72, 5536C11005G41
+     零件名称: 3号肋, 左侧2号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+054. 制初孔_Part_1_10_5536C10311G72_5536C10311G72_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 制初孔
+     零件号: 5536C10311G72, 5536C11006G41
+     零件名称: 3号肋, 右侧2号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+055. 制初孔_Part_1_14_5536C10411G72_5536C10411G72_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 制初孔
+     零件号: 5536C10411G72, 5536C11005G41
+     零件名称: 4号肋, 左侧2号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+056. 制初孔_Part_1_14_5536C10411G72_5536C10411G72_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 制初孔
+     零件号: 5536C10411G72, 5536C11006G41
+     零件名称: 4号肋, 右侧2号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+057. 制初孔_Part_1_18_5536C10511G72_5536C10511G72_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 制初孔
+     零件号: 5536C10511G72, 5536C11008G41
+     零件名称: 5号肋, 右侧3号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+058. 制初孔_Part_1_18_5536C10511G72_5536C10511G72_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 制初孔
+     零件号: 5536C10511G72, 5536C11007G41
+     零件名称: 5号肋, 左侧3号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+059. 制初孔_Part_1_22_5536C10611G72_5536C10611G72_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 制初孔
+     零件号: 5536C10611G72, 5536C11008G41
+     零件名称: 6号肋, 右侧3号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+060. 制初孔_Part_1_22_5536C10611G72_5536C10611G72_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 制初孔
+     零件号: 5536C10611G72, 5536C11007G41
+     零件名称: 6号肋, 左侧3号夹芯板
+     推理依据: connect_and_both_require_initial_hole
+061. 制连接孔_Part_1_4_5536C10105G71_5536C10105G71_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10105G71, 5536C12000G42
+     零件名称: 1号肋, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+062. 制连接孔_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10101G71, 5536C12000G42
+     零件名称: 1号肋, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+063. 制连接孔_Part_1_6_5536C10211G71_5536C10211G71_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10211G71, 5536C12000G42
+     零件名称: 2号肋, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+064. 制连接孔_Part_1_7_5536C10213G70_5536C10213G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10213G70, 5536C12000G42
+     零件名称: 2号肋缘条, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+065. 制连接孔_Part_1_8_5536C10214G70_5536C10214G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10214G70, 5536C12000G42
+     零件名称: 2号肋缘条, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+066. 制连接孔_Part_1_10_5536C10311G72_5536C10311G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10311G72, 5536C12000G42
+     零件名称: 3号肋, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+067. 制连接孔_Part_1_11_5536C10313G70_5536C10313G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10313G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+068. 制连接孔_Part_1_12_5536C10314G70_5536C10314G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10314G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+069. 制连接孔_Part_1_14_5536C10411G72_5536C10411G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10411G72, 5536C12000G42
+     零件名称: 4号肋, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+070. 制连接孔_Part_1_15_5536C10413G72_5536C10413G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10413G72, 5536C12000G42
+     零件名称: 4号肋缘条, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+071. 制连接孔_Part_1_16_5536C10414G72_5536C10414G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10414G72, 5536C12000G42
+     零件名称: 4号肋缘条, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+072. 制连接孔_Part_1_18_5536C10511G72_5536C10511G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10511G72, 5536C12000G42
+     零件名称: 5号肋, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+073. 制连接孔_Part_1_20_5536C10514G70_5536C10514G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10514G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+074. 制连接孔_Part_1_19_5536C10513G70_5536C10513G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10513G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+075. 制连接孔_Part_1_22_5536C10611G72_5536C10611G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10611G72, 5536C12000G42
+     零件名称: 6号肋, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+076. 制连接孔_Part_1_24_5536C10614G70_5536C10614G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10614G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+077. 制连接孔_Part_1_23_5536C10613G70_5536C10613G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C10613G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+078. 制连接孔_SubAssembly_1_32_5536C11008G41_5536C11008G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C11008G41, 5536C12000G42
+     零件名称: 右侧3号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+079. 制连接孔_SubAssembly_1_31_5536C11007G41_5536C11007G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C11007G41, 5536C12000G42
+     零件名称: 左侧3号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+080. 制连接孔_SubAssembly_1_29_5536C11005G41_5536C11005G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C11005G41, 5536C12000G42
+     零件名称: 左侧2号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+081. 制连接孔_SubAssembly_1_30_5536C11006G41_5536C11006G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C11006G41, 5536C12000G42
+     零件名称: 右侧2号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+082. 制连接孔_SubAssembly_1_28_5536C11004G41_5536C11004G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C11004G41, 5536C12000G42
+     零件名称: 右侧1号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+083. 制连接孔_SubAssembly_1_27_5536C11003G41_5536C11003G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 制连接孔
+     零件号: 5536C11003G41, 5536C12000G42
+     零件名称: 左侧1号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_connection_hole
+084. 制连接孔_Part_1_2_5536C10101G71_5536C10101G71_1_Part_1_4_5536C10105G71_5536C10105G71_1 | 工艺: 制连接孔
+     零件号: 5536C10101G71, 5536C10105G71
+     零件名称: 1号肋, 1号肋
+     推理依据: connect_and_both_require_connection_hole
+085. 制连接孔_Part_1_4_5536C10105G71_5536C10105G71_1_SubAssembly_1_28_5536C11004G41_5536C11004G41 | 工艺: 制连接孔
+     零件号: 5536C10105G71, 5536C11004G41
+     零件名称: 1号肋, 右侧1号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+086. 制连接孔_Part_1_4_5536C10105G71_5536C10105G71_1_SubAssembly_1_26_5536C11002G41_5536C11002G41_1 | 工艺: 制连接孔
+     零件号: 5536C10105G71, 5536C11002G41
+     零件名称: 1号肋, 右侧下封面板
+     推理依据: connect_and_both_require_connection_hole
+087. 制连接孔_Part_1_2_5536C10101G71_5536C10101G71_1_Part_1_3_5536C10103G71_5536C10103G71_1 | 工艺: 制连接孔
+     零件号: 5536C10101G71, 5536C10103G71
+     零件名称: 1号肋, 1号肋角材
+     推理依据: connect_and_both_require_connection_hole
+088. 制连接孔_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_26_5536C11002G41_5536C11002G41_1 | 工艺: 制连接孔
+     零件号: 5536C10101G71, 5536C11002G41
+     零件名称: 1号肋, 右侧下封面板
+     推理依据: connect_and_both_require_connection_hole
+089. 制连接孔_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_25_5536C11001G41_5536C11001G41_1 | 工艺: 制连接孔
+     零件号: 5536C10101G71, 5536C11001G41
+     零件名称: 1号肋, 左侧下封面板
+     推理依据: connect_and_both_require_connection_hole
+090. 制连接孔_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_27_5536C11003G41_5536C11003G41 | 工艺: 制连接孔
+     零件号: 5536C10101G71, 5536C11003G41
+     零件名称: 1号肋, 左侧1号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+091. 制连接孔_Part_1_35_5536C14002G71_5536C14002G70_1_SubAssembly_1_28_5536C11004G41_5536C11004G41 | 工艺: 制连接孔
+     零件号: 5536C14002G71, 5536C11004G41
+     零件名称: 1号连接带板, 右侧1号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+092. 制连接孔_Part_1_34_5536C14001G71_5536C14001G70_1_SubAssembly_1_27_5536C11003G41_5536C11003G41 | 工艺: 制连接孔
+     零件号: 5536C14001G71, 5536C11003G41
+     零件名称: 1号连接带板, 左侧1号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+093. 制连接孔_Part_1_36_5536C14003G71_5536C14003G70_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 制连接孔
+     零件号: 5536C14003G71, 5536C11005G41
+     零件名称: 2号连接带板, 左侧2号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+094. 制连接孔_Part_1_37_5536C14004G71_5536C14004G70_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 制连接孔
+     零件号: 5536C14004G71, 5536C11006G41
+     零件名称: 2号连接带板, 右侧2号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+095. 制连接孔_Part_1_5_5536C10203G71_5536C10203G71_1_Part_1_6_5536C10211G71_5536C10211G71_1 | 工艺: 制连接孔
+     零件号: 5536C10203G71, 5536C10211G71
+     零件名称: 2号肋角材, 2号肋
+     推理依据: connect_and_both_require_connection_hole
+096. 制连接孔_Part_1_6_5536C10211G71_5536C10211G71_1_Part_1_7_5536C10213G70_5536C10213G70_1 | 工艺: 制连接孔
+     零件号: 5536C10211G71, 5536C10213G70
+     零件名称: 2号肋, 2号肋缘条
+     推理依据: connect_and_both_require_connection_hole
+097. 制连接孔_Part_1_6_5536C10211G71_5536C10211G71_1_Part_1_8_5536C10214G70_5536C10214G70_1 | 工艺: 制连接孔
+     零件号: 5536C10211G71, 5536C10214G70
+     零件名称: 2号肋, 2号肋缘条
+     推理依据: connect_and_both_require_connection_hole
+098. 制连接孔_Part_1_6_5536C10211G71_5536C10211G71_1_SubAssembly_1_28_5536C11004G41_5536C11004G41 | 工艺: 制连接孔
+     零件号: 5536C10211G71, 5536C11004G41
+     零件名称: 2号肋, 右侧1号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+099. 制连接孔_Part_1_6_5536C10211G71_5536C10211G71_1_SubAssembly_1_27_5536C11003G41_5536C11003G41 | 工艺: 制连接孔
+     零件号: 5536C10211G71, 5536C11003G41
+     零件名称: 2号肋, 左侧1号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+100. 制连接孔_Part_1_7_5536C10213G70_5536C10213G70_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 制连接孔
+     零件号: 5536C10213G70, 5536C11005G41
+     零件名称: 2号肋缘条, 左侧2号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+101. 制连接孔_Part_1_8_5536C10214G70_5536C10214G70_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 制连接孔
+     零件号: 5536C10214G70, 5536C11006G41
+     零件名称: 2号肋缘条, 右侧2号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+102. 制连接孔_Part_1_10_5536C10311G72_5536C10311G72_1_Part_1_9_5536C10303G71_5536C10303G71_1 | 工艺: 制连接孔
+     零件号: 5536C10311G72, 5536C10303G71
+     零件名称: 3号肋, 3号肋角材
+     推理依据: connect_and_both_require_connection_hole
+103. 制连接孔_Part_1_10_5536C10311G72_5536C10311G72_1_Part_1_11_5536C10313G70_5536C10313G70_1 | 工艺: 制连接孔
+     零件号: 5536C10311G72, 5536C10313G70
+     零件名称: 3号肋, 角片
+     推理依据: connect_and_both_require_connection_hole
+104. 制连接孔_Part_1_10_5536C10311G72_5536C10311G72_1_Part_1_12_5536C10314G70_5536C10314G70_1 | 工艺: 制连接孔
+     零件号: 5536C10311G72, 5536C10314G70
+     零件名称: 3号肋, 角片
+     推理依据: connect_and_both_require_connection_hole
+105. 制连接孔_Part_1_10_5536C10311G72_5536C10311G72_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 制连接孔
+     零件号: 5536C10311G72, 5536C11005G41
+     零件名称: 3号肋, 左侧2号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+106. 制连接孔_Part_1_10_5536C10311G72_5536C10311G72_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 制连接孔
+     零件号: 5536C10311G72, 5536C11006G41
+     零件名称: 3号肋, 右侧2号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+107. 制连接孔_Part_1_39_5536C14006G71_5536C14006G71_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 制连接孔
+     零件号: 5536C14006G71, 5536C11006G41
+     零件名称: 3号连接带板, 右侧2号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+108. 制连接孔_Part_1_38_5536C14005G71_5536C14005G71_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 制连接孔
+     零件号: 5536C14005G71, 5536C11005G41
+     零件名称: 3号连接带板, 左侧2号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+109. 制连接孔_Part_1_13_5536C10403G71_5536C10403G71_1_Part_1_14_5536C10411G72_5536C10411G72_1 | 工艺: 制连接孔
+     零件号: 5536C10403G71, 5536C10411G72
+     零件名称: 4号肋角材, 4号肋
+     推理依据: connect_and_both_require_connection_hole
+110. 制连接孔_Part_1_14_5536C10411G72_5536C10411G72_1_Part_1_15_5536C10413G72_5536C10413G72_1 | 工艺: 制连接孔
+     零件号: 5536C10411G72, 5536C10413G72
+     零件名称: 4号肋, 4号肋缘条
+     推理依据: connect_and_both_require_connection_hole
+111. 制连接孔_Part_1_14_5536C10411G72_5536C10411G72_1_Part_1_16_5536C10414G72_5536C10414G72_1 | 工艺: 制连接孔
+     零件号: 5536C10411G72, 5536C10414G72
+     零件名称: 4号肋, 4号肋缘条
+     推理依据: connect_and_both_require_connection_hole
+112. 制连接孔_Part_1_14_5536C10411G72_5536C10411G72_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 制连接孔
+     零件号: 5536C10411G72, 5536C11005G41
+     零件名称: 4号肋, 左侧2号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+113. 制连接孔_Part_1_14_5536C10411G72_5536C10411G72_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 制连接孔
+     零件号: 5536C10411G72, 5536C11006G41
+     零件名称: 4号肋, 右侧2号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+114. 制连接孔_Part_1_15_5536C10413G72_5536C10413G72_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 制连接孔
+     零件号: 5536C10413G72, 5536C11007G41
+     零件名称: 4号肋缘条, 左侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+115. 制连接孔_Part_1_16_5536C10414G72_5536C10414G72_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 制连接孔
+     零件号: 5536C10414G72, 5536C11008G41
+     零件名称: 4号肋缘条, 右侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+116. 制连接孔_Part_1_40_5536C14007G71_5536C14007G71_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 制连接孔
+     零件号: 5536C14007G71, 5536C11007G41
+     零件名称: 4号连接带板, 左侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+117. 制连接孔_Part_1_41_5536C14008G71_5536C14008G71_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 制连接孔
+     零件号: 5536C14008G71, 5536C11008G41
+     零件名称: 4号连接带板, 右侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+118. 制连接孔_Part_1_17_5536C10503G71_5536C10503G70_1_Part_1_18_5536C10511G72_5536C10511G72_1 | 工艺: 制连接孔
+     零件号: 5536C10503G71, 5536C10511G72
+     零件名称: 5号肋角材, 5号肋
+     推理依据: connect_and_both_require_connection_hole
+119. 制连接孔_Part_1_18_5536C10511G72_5536C10511G72_1_Part_1_20_5536C10514G70_5536C10514G70_1 | 工艺: 制连接孔
+     零件号: 5536C10511G72, 5536C10514G70
+     零件名称: 5号肋, 角片
+     推理依据: connect_and_both_require_connection_hole
+120. 制连接孔_Part_1_18_5536C10511G72_5536C10511G72_1_Part_1_19_5536C10513G70_5536C10513G70_1 | 工艺: 制连接孔
+     零件号: 5536C10511G72, 5536C10513G70
+     零件名称: 5号肋, 角片
+     推理依据: connect_and_both_require_connection_hole
+121. 制连接孔_Part_1_18_5536C10511G72_5536C10511G72_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 制连接孔
+     零件号: 5536C10511G72, 5536C11008G41
+     零件名称: 5号肋, 右侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+122. 制连接孔_Part_1_18_5536C10511G72_5536C10511G72_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 制连接孔
+     零件号: 5536C10511G72, 5536C11007G41
+     零件名称: 5号肋, 左侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+123. 制连接孔_Part_1_42_5536C14009G71_5536C14009G72_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 制连接孔
+     零件号: 5536C14009G71, 5536C11007G41
+     零件名称: 5号连接带板, 左侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+124. 制连接孔_Part_1_43_5536C14010G71_5536C14010G72_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 制连接孔
+     零件号: 5536C14010G71, 5536C11008G41
+     零件名称: 5号连接带板, 右侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+125. 制连接孔_Part_1_21_5536C10603G71_5536C10603G71_1_Part_1_22_5536C10611G72_5536C10611G72_1 | 工艺: 制连接孔
+     零件号: 5536C10603G71, 5536C10611G72
+     零件名称: 6号肋角材, 6号肋
+     推理依据: connect_and_both_require_connection_hole
+126. 制连接孔_Part_1_22_5536C10611G72_5536C10611G72_1_Part_1_24_5536C10614G70_5536C10614G70_1 | 工艺: 制连接孔
+     零件号: 5536C10611G72, 5536C10614G70
+     零件名称: 6号肋, 角片
+     推理依据: connect_and_both_require_connection_hole
+127. 制连接孔_Part_1_22_5536C10611G72_5536C10611G72_1_Part_1_23_5536C10613G70_5536C10613G70_1 | 工艺: 制连接孔
+     零件号: 5536C10611G72, 5536C10613G70
+     零件名称: 6号肋, 角片
+     推理依据: connect_and_both_require_connection_hole
+128. 制连接孔_Part_1_22_5536C10611G72_5536C10611G72_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 制连接孔
+     零件号: 5536C10611G72, 5536C11008G41
+     零件名称: 6号肋, 右侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+129. 制连接孔_Part_1_22_5536C10611G72_5536C10611G72_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 制连接孔
+     零件号: 5536C10611G72, 5536C11007G41
+     零件名称: 6号肋, 左侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+130. 制连接孔_Part_1_44_5536C14011G71_5536C14011G71_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 制连接孔
+     零件号: 5536C14011G71, 5536C11007G41
+     零件名称: 6号连接带板, 左侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+131. 制连接孔_Part_1_45_5536C14012G71_5536C14012G71_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 制连接孔
+     零件号: 5536C14012G71, 5536C11008G41
+     零件名称: 6号连接带板, 右侧3号夹芯板
+     推理依据: connect_and_both_require_connection_hole
+132. 安装紧固件_Part_1_4_5536C10105G71_5536C10105G71_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10105G71, 5536C12000G42
+     零件名称: 1号肋, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+133. 安装紧固件_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10101G71, 5536C12000G42
+     零件名称: 1号肋, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+134. 安装紧固件_Part_1_6_5536C10211G71_5536C10211G71_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10211G71, 5536C12000G42
+     零件名称: 2号肋, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+135. 安装紧固件_Part_1_7_5536C10213G70_5536C10213G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10213G70, 5536C12000G42
+     零件名称: 2号肋缘条, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+136. 安装紧固件_Part_1_8_5536C10214G70_5536C10214G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10214G70, 5536C12000G42
+     零件名称: 2号肋缘条, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+137. 安装紧固件_Part_1_10_5536C10311G72_5536C10311G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10311G72, 5536C12000G42
+     零件名称: 3号肋, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+138. 安装紧固件_Part_1_11_5536C10313G70_5536C10313G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10313G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+139. 安装紧固件_Part_1_12_5536C10314G70_5536C10314G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10314G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+140. 安装紧固件_Part_1_14_5536C10411G72_5536C10411G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10411G72, 5536C12000G42
+     零件名称: 4号肋, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+141. 安装紧固件_Part_1_15_5536C10413G72_5536C10413G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10413G72, 5536C12000G42
+     零件名称: 4号肋缘条, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+142. 安装紧固件_Part_1_16_5536C10414G72_5536C10414G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10414G72, 5536C12000G42
+     零件名称: 4号肋缘条, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+143. 安装紧固件_Part_1_18_5536C10511G72_5536C10511G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10511G72, 5536C12000G42
+     零件名称: 5号肋, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+144. 安装紧固件_Part_1_20_5536C10514G70_5536C10514G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10514G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+145. 安装紧固件_Part_1_19_5536C10513G70_5536C10513G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10513G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+146. 安装紧固件_Part_1_22_5536C10611G72_5536C10611G72_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10611G72, 5536C12000G42
+     零件名称: 6号肋, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+147. 安装紧固件_Part_1_24_5536C10614G70_5536C10614G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10614G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+148. 安装紧固件_Part_1_23_5536C10613G70_5536C10613G70_1_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C10613G70, 5536C12000G42
+     零件名称: 角片, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+149. 安装紧固件_SubAssembly_1_32_5536C11008G41_5536C11008G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C11008G41, 5536C12000G42
+     零件名称: 右侧3号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+150. 安装紧固件_SubAssembly_1_31_5536C11007G41_5536C11007G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C11007G41, 5536C12000G42
+     零件名称: 左侧3号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+151. 安装紧固件_SubAssembly_1_29_5536C11005G41_5536C11005G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C11005G41, 5536C12000G42
+     零件名称: 左侧2号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+152. 安装紧固件_SubAssembly_1_30_5536C11006G41_5536C11006G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C11006G41, 5536C12000G42
+     零件名称: 右侧2号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+153. 安装紧固件_SubAssembly_1_28_5536C11004G41_5536C11004G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C11004G41, 5536C12000G42
+     零件名称: 右侧1号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+154. 安装紧固件_SubAssembly_1_27_5536C11003G41_5536C11003G41_SubAssembly_1_33_5536C12000G42_5536C12000G42_1 | 工艺: 安装紧固件
+     零件号: 5536C11003G41, 5536C12000G42
+     零件名称: 左侧1号夹芯板, 辅助梁组件
+     推理依据: connect_and_both_require_fastener_install
+155. 安装紧固件_Part_1_2_5536C10101G71_5536C10101G71_1_Part_1_4_5536C10105G71_5536C10105G71_1 | 工艺: 安装紧固件
+     零件号: 5536C10101G71, 5536C10105G71
+     零件名称: 1号肋, 1号肋
+     推理依据: connect_and_both_require_fastener_install
+156. 安装紧固件_Part_1_4_5536C10105G71_5536C10105G71_1_SubAssembly_1_28_5536C11004G41_5536C11004G41 | 工艺: 安装紧固件
+     零件号: 5536C10105G71, 5536C11004G41
+     零件名称: 1号肋, 右侧1号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+157. 安装紧固件_Part_1_4_5536C10105G71_5536C10105G71_1_SubAssembly_1_26_5536C11002G41_5536C11002G41_1 | 工艺: 安装紧固件
+     零件号: 5536C10105G71, 5536C11002G41
+     零件名称: 1号肋, 右侧下封面板
+     推理依据: connect_and_both_require_fastener_install
+158. 安装紧固件_Part_1_2_5536C10101G71_5536C10101G71_1_Part_1_3_5536C10103G71_5536C10103G71_1 | 工艺: 安装紧固件
+     零件号: 5536C10101G71, 5536C10103G71
+     零件名称: 1号肋, 1号肋角材
+     推理依据: connect_and_both_require_fastener_install
+159. 安装紧固件_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_26_5536C11002G41_5536C11002G41_1 | 工艺: 安装紧固件
+     零件号: 5536C10101G71, 5536C11002G41
+     零件名称: 1号肋, 右侧下封面板
+     推理依据: connect_and_both_require_fastener_install
+160. 安装紧固件_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_25_5536C11001G41_5536C11001G41_1 | 工艺: 安装紧固件
+     零件号: 5536C10101G71, 5536C11001G41
+     零件名称: 1号肋, 左侧下封面板
+     推理依据: connect_and_both_require_fastener_install
+161. 安装紧固件_Part_1_2_5536C10101G71_5536C10101G71_1_SubAssembly_1_27_5536C11003G41_5536C11003G41 | 工艺: 安装紧固件
+     零件号: 5536C10101G71, 5536C11003G41
+     零件名称: 1号肋, 左侧1号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+162. 安装紧固件_Part_1_35_5536C14002G71_5536C14002G70_1_SubAssembly_1_28_5536C11004G41_5536C11004G41 | 工艺: 安装紧固件
+     零件号: 5536C14002G71, 5536C11004G41
+     零件名称: 1号连接带板, 右侧1号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+163. 安装紧固件_Part_1_34_5536C14001G71_5536C14001G70_1_SubAssembly_1_27_5536C11003G41_5536C11003G41 | 工艺: 安装紧固件
+     零件号: 5536C14001G71, 5536C11003G41
+     零件名称: 1号连接带板, 左侧1号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+164. 安装紧固件_Part_1_36_5536C14003G71_5536C14003G70_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 安装紧固件
+     零件号: 5536C14003G71, 5536C11005G41
+     零件名称: 2号连接带板, 左侧2号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+165. 安装紧固件_Part_1_37_5536C14004G71_5536C14004G70_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 安装紧固件
+     零件号: 5536C14004G71, 5536C11006G41
+     零件名称: 2号连接带板, 右侧2号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+166. 安装紧固件_Part_1_5_5536C10203G71_5536C10203G71_1_Part_1_6_5536C10211G71_5536C10211G71_1 | 工艺: 安装紧固件
+     零件号: 5536C10203G71, 5536C10211G71
+     零件名称: 2号肋角材, 2号肋
+     推理依据: connect_and_both_require_fastener_install
+167. 安装紧固件_Part_1_6_5536C10211G71_5536C10211G71_1_Part_1_7_5536C10213G70_5536C10213G70_1 | 工艺: 安装紧固件
+     零件号: 5536C10211G71, 5536C10213G70
+     零件名称: 2号肋, 2号肋缘条
+     推理依据: connect_and_both_require_fastener_install
+168. 安装紧固件_Part_1_6_5536C10211G71_5536C10211G71_1_Part_1_8_5536C10214G70_5536C10214G70_1 | 工艺: 安装紧固件
+     零件号: 5536C10211G71, 5536C10214G70
+     零件名称: 2号肋, 2号肋缘条
+     推理依据: connect_and_both_require_fastener_install
+169. 安装紧固件_Part_1_6_5536C10211G71_5536C10211G71_1_SubAssembly_1_28_5536C11004G41_5536C11004G41 | 工艺: 安装紧固件
+     零件号: 5536C10211G71, 5536C11004G41
+     零件名称: 2号肋, 右侧1号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+170. 安装紧固件_Part_1_6_5536C10211G71_5536C10211G71_1_SubAssembly_1_27_5536C11003G41_5536C11003G41 | 工艺: 安装紧固件
+     零件号: 5536C10211G71, 5536C11003G41
+     零件名称: 2号肋, 左侧1号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+171. 安装紧固件_Part_1_7_5536C10213G70_5536C10213G70_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 安装紧固件
+     零件号: 5536C10213G70, 5536C11005G41
+     零件名称: 2号肋缘条, 左侧2号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+172. 安装紧固件_Part_1_8_5536C10214G70_5536C10214G70_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 安装紧固件
+     零件号: 5536C10214G70, 5536C11006G41
+     零件名称: 2号肋缘条, 右侧2号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+173. 安装紧固件_Part_1_10_5536C10311G72_5536C10311G72_1_Part_1_9_5536C10303G71_5536C10303G71_1 | 工艺: 安装紧固件
+     零件号: 5536C10311G72, 5536C10303G71
+     零件名称: 3号肋, 3号肋角材
+     推理依据: connect_and_both_require_fastener_install
+174. 安装紧固件_Part_1_10_5536C10311G72_5536C10311G72_1_Part_1_11_5536C10313G70_5536C10313G70_1 | 工艺: 安装紧固件
+     零件号: 5536C10311G72, 5536C10313G70
+     零件名称: 3号肋, 角片
+     推理依据: connect_and_both_require_fastener_install
+175. 安装紧固件_Part_1_10_5536C10311G72_5536C10311G72_1_Part_1_12_5536C10314G70_5536C10314G70_1 | 工艺: 安装紧固件
+     零件号: 5536C10311G72, 5536C10314G70
+     零件名称: 3号肋, 角片
+     推理依据: connect_and_both_require_fastener_install
+176. 安装紧固件_Part_1_10_5536C10311G72_5536C10311G72_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 安装紧固件
+     零件号: 5536C10311G72, 5536C11005G41
+     零件名称: 3号肋, 左侧2号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+177. 安装紧固件_Part_1_10_5536C10311G72_5536C10311G72_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 安装紧固件
+     零件号: 5536C10311G72, 5536C11006G41
+     零件名称: 3号肋, 右侧2号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+178. 安装紧固件_Part_1_39_5536C14006G71_5536C14006G71_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 安装紧固件
+     零件号: 5536C14006G71, 5536C11006G41
+     零件名称: 3号连接带板, 右侧2号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+179. 安装紧固件_Part_1_38_5536C14005G71_5536C14005G71_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 安装紧固件
+     零件号: 5536C14005G71, 5536C11005G41
+     零件名称: 3号连接带板, 左侧2号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+180. 安装紧固件_Part_1_13_5536C10403G71_5536C10403G71_1_Part_1_14_5536C10411G72_5536C10411G72_1 | 工艺: 安装紧固件
+     零件号: 5536C10403G71, 5536C10411G72
+     零件名称: 4号肋角材, 4号肋
+     推理依据: connect_and_both_require_fastener_install
+181. 安装紧固件_Part_1_14_5536C10411G72_5536C10411G72_1_Part_1_15_5536C10413G72_5536C10413G72_1 | 工艺: 安装紧固件
+     零件号: 5536C10411G72, 5536C10413G72
+     零件名称: 4号肋, 4号肋缘条
+     推理依据: connect_and_both_require_fastener_install
+182. 安装紧固件_Part_1_14_5536C10411G72_5536C10411G72_1_Part_1_16_5536C10414G72_5536C10414G72_1 | 工艺: 安装紧固件
+     零件号: 5536C10411G72, 5536C10414G72
+     零件名称: 4号肋, 4号肋缘条
+     推理依据: connect_and_both_require_fastener_install
+183. 安装紧固件_Part_1_14_5536C10411G72_5536C10411G72_1_SubAssembly_1_29_5536C11005G41_5536C11005G41 | 工艺: 安装紧固件
+     零件号: 5536C10411G72, 5536C11005G41
+     零件名称: 4号肋, 左侧2号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+184. 安装紧固件_Part_1_14_5536C10411G72_5536C10411G72_1_SubAssembly_1_30_5536C11006G41_5536C11006G41 | 工艺: 安装紧固件
+     零件号: 5536C10411G72, 5536C11006G41
+     零件名称: 4号肋, 右侧2号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+185. 安装紧固件_Part_1_15_5536C10413G72_5536C10413G72_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 安装紧固件
+     零件号: 5536C10413G72, 5536C11007G41
+     零件名称: 4号肋缘条, 左侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+186. 安装紧固件_Part_1_16_5536C10414G72_5536C10414G72_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 安装紧固件
+     零件号: 5536C10414G72, 5536C11008G41
+     零件名称: 4号肋缘条, 右侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+187. 安装紧固件_Part_1_40_5536C14007G71_5536C14007G71_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 安装紧固件
+     零件号: 5536C14007G71, 5536C11007G41
+     零件名称: 4号连接带板, 左侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+188. 安装紧固件_Part_1_41_5536C14008G71_5536C14008G71_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 安装紧固件
+     零件号: 5536C14008G71, 5536C11008G41
+     零件名称: 4号连接带板, 右侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+189. 安装紧固件_Part_1_17_5536C10503G71_5536C10503G70_1_Part_1_18_5536C10511G72_5536C10511G72_1 | 工艺: 安装紧固件
+     零件号: 5536C10503G71, 5536C10511G72
+     零件名称: 5号肋角材, 5号肋
+     推理依据: connect_and_both_require_fastener_install
+190. 安装紧固件_Part_1_18_5536C10511G72_5536C10511G72_1_Part_1_20_5536C10514G70_5536C10514G70_1 | 工艺: 安装紧固件
+     零件号: 5536C10511G72, 5536C10514G70
+     零件名称: 5号肋, 角片
+     推理依据: connect_and_both_require_fastener_install
+191. 安装紧固件_Part_1_18_5536C10511G72_5536C10511G72_1_Part_1_19_5536C10513G70_5536C10513G70_1 | 工艺: 安装紧固件
+     零件号: 5536C10511G72, 5536C10513G70
+     零件名称: 5号肋, 角片
+     推理依据: connect_and_both_require_fastener_install
+192. 安装紧固件_Part_1_18_5536C10511G72_5536C10511G72_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 安装紧固件
+     零件号: 5536C10511G72, 5536C11008G41
+     零件名称: 5号肋, 右侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+193. 安装紧固件_Part_1_18_5536C10511G72_5536C10511G72_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 安装紧固件
+     零件号: 5536C10511G72, 5536C11007G41
+     零件名称: 5号肋, 左侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+194. 安装紧固件_Part_1_42_5536C14009G71_5536C14009G72_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 安装紧固件
+     零件号: 5536C14009G71, 5536C11007G41
+     零件名称: 5号连接带板, 左侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+195. 安装紧固件_Part_1_43_5536C14010G71_5536C14010G72_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 安装紧固件
+     零件号: 5536C14010G71, 5536C11008G41
+     零件名称: 5号连接带板, 右侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+196. 安装紧固件_Part_1_21_5536C10603G71_5536C10603G71_1_Part_1_22_5536C10611G72_5536C10611G72_1 | 工艺: 安装紧固件
+     零件号: 5536C10603G71, 5536C10611G72
+     零件名称: 6号肋角材, 6号肋
+     推理依据: connect_and_both_require_fastener_install
+197. 安装紧固件_Part_1_22_5536C10611G72_5536C10611G72_1_Part_1_24_5536C10614G70_5536C10614G70_1 | 工艺: 安装紧固件
+     零件号: 5536C10611G72, 5536C10614G70
+     零件名称: 6号肋, 角片
+     推理依据: connect_and_both_require_fastener_install
+198. 安装紧固件_Part_1_22_5536C10611G72_5536C10611G72_1_Part_1_23_5536C10613G70_5536C10613G70_1 | 工艺: 安装紧固件
+     零件号: 5536C10611G72, 5536C10613G70
+     零件名称: 6号肋, 角片
+     推理依据: connect_and_both_require_fastener_install
+199. 安装紧固件_Part_1_22_5536C10611G72_5536C10611G72_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 安装紧固件
+     零件号: 5536C10611G72, 5536C11008G41
+     零件名称: 6号肋, 右侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+200. 安装紧固件_Part_1_22_5536C10611G72_5536C10611G72_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 安装紧固件
+     零件号: 5536C10611G72, 5536C11007G41
+     零件名称: 6号肋, 左侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+201. 安装紧固件_Part_1_44_5536C14011G71_5536C14011G71_1_SubAssembly_1_31_5536C11007G41_5536C11007G41 | 工艺: 安装紧固件
+     零件号: 5536C14011G71, 5536C11007G41
+     零件名称: 6号连接带板, 左侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+202. 安装紧固件_Part_1_45_5536C14012G71_5536C14012G71_1_SubAssembly_1_32_5536C11008G41_5536C11008G41 | 工艺: 安装紧固件
+     零件号: 5536C14012G71, 5536C11008G41
+     零件名称: 6号连接带板, 右侧3号夹芯板
+     推理依据: connect_and_both_require_fastener_install
+203. 吊装移站_Product_1_5536C10000G26_5536C10000G26 | 工艺: 吊装移站
+     零件号: 
+     零件名称: Product_1_5536C10000G26_5536C10000G26
+     推理依据: product_final_process
+204. 下架_Product_1_5536C10000G26_5536C10000G26 | 工艺: 下架
+     零件号: 
+     零件名称: Product_1_5536C10000G26_5536C10000G26
+     推理依据: product_final_process
+205. 补铆安装紧固件_Product_1_5536C10000G26_5536C10000G26 | 工艺: 补铆安装紧固件
+     零件号: 
+     零件名称: Product_1_5536C10000G26_5536C10000G26
+     推理依据: product_final_process
+206. 安装部分支架_Product_1_5536C10000G26_5536C10000G26 | 工艺: 安装部分支架
+     零件号: 
+     零件名称: Product_1_5536C10000G26_5536C10000G26
+     推理依据: product_final_process
+207. 涂胶密封_Product_1_5536C10000G26_5536C10000G26 | 工艺: 涂胶密封
+     零件号: 
+     零件名称: Product_1_5536C10000G26_5536C10000G26
+     推理依据: product_final_process
+208. 清洗排故_Product_1_5536C10000G26_5536C10000G26 | 工艺: 清洗排故
+     零件号: 
+     零件名称: Product_1_5536C10000G26_5536C10000G26
+     推理依据: product_final_process
